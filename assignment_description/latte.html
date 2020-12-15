@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" type="text/css" href="/~ben/Css/white.css">
+  <link rel="stylesheet" type="text/css" href="white.css">
+   <title>MRJP - projekt zaliczeniowy</title>
+</head>
+<body>
+<h1 id="laboratorium-mrjp---projekt-zaliczeniowy">Laboratorium MRJP - projekt zaliczeniowy</h1>
+<p>Zaliczenie laboratorium odbywa się na podstawie projektu obejmującego implementację kompilatora dla prostego jezyka imperatywnego <a href="Latte/index.html">Latte</a>.</p>
+<h2 id="etapy">Etapy</h2>
+<p>Projekt składa się z trzech etapów</p>
+<ol type="1">
+<li>Frontend - termin 10 grudnia.</li>
+<li>Generator kodu dla LLVM albo x86. Termin 7 stycznia.</li>
+<li>(opcjonalnie) Ewentualne rozszerzenia. Termin 25 stycznia. Prowadzący grupę może wyznaczyć inne terminy, w szczególności wymagać osobistej prezentacji projektu. Niezależnie od dodatkowych wymagań prowadzącego, projekt musi być oddany za pośrednictwem moodle.</li>
+</ol>
+<h3 id="punktacja">Punktacja</h3>
+<p>Łącznie do zdobycia jest maksymalnie 34 punktów, które liczą się do ostatecznej oceny z przedmiotu. Dla zaliczenia laboratorium (i dopuszczenia do egzaminu) należy oddać zadowalające implementacje wszystkich etapów i uzyskać łącznie z Zadaniem 1 co najmniej 20p.</p>
+<p>Punkty mozna uzyskać za:</p>
+<ol type="1">
+<li>front-end (4)</li>
+<li>back-end LLVM (8) <strong>albo</strong> x86 (10)</li>
+<li>użycie rejestrów i phi zamiast allloc w LLVM - dodatkowo 2p</li>
+<li>wykorzystanie rejestrów dla x86 - dodatkowo do 5p (na 5p alokacja rejestrów)</li>
+<li>optymalizacje - do 7p (na 3p LCSE, 5p GCSE, na 7p optymalizacja pętli (zmienne indukcyjne i redukcja mocy))</li>
+<li>Rozszerzenia (notacja x/y oznacza punkty za backend w wersji odpowiednio LLVM/x86); szczegółowy opis rozszerzeń zawarty jest w opisie języka.
+<ol type="1">
+<li>tablice (1)</li>
+<li>struktury (2)</li>
+<li>obiekty (atrybuty, metody, dziedziczenie bez zastępowania metod) - dodatkowo (3/4)</li>
+<li>metody wirtualne - dodatkowo (3/4), czyli za obiekty z metodami wirtualnymi mozna uzyskać 8/10 punktów.</li>
+<li>odśmiecanie (2)</li>
+<li>zarządzanie pamięcią a la Rust (2) (wyklucza się z odsmiecaniem)</li>
+</ol></li>
+</ol>
+<p>Struktury/obiekty oznaczają też zagnieżdżone struktury/obiekty oraz dostęp do pól/metod postaci <code>foo.bar.baz</code>.</p>
+<p>Żeby uzyskać punkty za tablice i struktury/obiekty wymagane są tablice struktur i tablice jako elementy struktur.</p>
+<p><strong>Uwaga:</strong> podane liczby punktów są wartościami maksymalnymi, sprawdzający może przydzielić mniejsza liczbę punktów w zależności od jakości rozwiązania i generowanego kodu. Oczekujemy, że kod będzie generowany zgodnie z regułami sztuki poznanymi na zajęciach (albo lepiej).</p>
+<h3 id="spóźnienia-termin-poprawkowy">Spóźnienia, termin poprawkowy</h3>
+<p>Programy oddane po terminie będą obciążane karą 2p za każdy (rozpoczęty) tydzień opóźnienia. Ostatecznym terminem, po którym programy nie będą przyjmowane (“termin poprawkowy”) jest 14 lutego.</p>
+<h2 id="zasady">Zasady</h2>
+<p>Projekt zaliczeniowy ma być pisany samodzielnie. Wszelkie przejawy niesamodzielności będą karane. W szczególności:</p>
+<ul>
+<li>nie wolno oglądać kodu innych studentów, pokazywać, ani w jakikolwiek sposób udostępniać swojego kodu</li>
+<li>wszelkie zapożyczenia powinny być opisane z podaniem źródła.</li>
+</ul>
+<h3 id="wymagania-techniczne">Wymagania techniczne</h3>
+<ol type="1">
+<li>Projekt powinien być oddany w postaci spakowanego archiwum TAR (.tar.gz lub .tgz)</li>
+<li>W korzeniu projektu muszą się znajdować co najmniej:
+<ul>
+<li>Plik tekstowy <strong>README</strong> opisujący szczegóły kompilacji i uruchamiania programu, używane narzędzia i biblioteki, zaimplementowane rozszerzenia, strukturę katalogów projektu, ewentualnie odnośniki do bardziej szczegółowej dokumentacji.</li>
+<li>Plik <strong>Makefile</strong> pozwalający na zbudowanie programu.</li>
+<li>katalog <strong>src</strong> zawierający wyłącznie pliki źródłowe projektu (plus ewentualnie dostarczony przez nas plik Latte.cf); pliki pomocnicze takie jak biblioteki itp powinny być umieszczone w inych katalogach.</li>
+</ul></li>
+<li>Program musi się kompilować na students poleceniem <strong>make</strong> (które oczywiście może wywoływać inne programy).</li>
+<li>Wszelkie używane biblioteki (poza biblioteką standardową używanego jezyka programowania) muszą być opisane w README</li>
+<li>Po zbudowaniu kompilatora, w korzeniu musi się znajdować plik wykonywalny o nazwie <strong>latc</strong> (może być skryptem uruchamiającym inne programy)</li>
+<li>Kompilator musi akceptować wszystkie programy testowe z katalogu <strong>good</strong> i odrzucać ze stosownym komunikatem wszystkie programy z katalogu <strong>bad</strong>.Komunikaty o błędach muszą umnożliwiać lokalizację błędu (przez numer linii lub kontekst). Dla rozszerzeń musi akceptować wszystkie programy z odpowiednich podkatalogów <strong>extension</strong>. Uruchomienie poprawnego programu testowego ma dawać wyjście takie jak w odpowiednim pliku <strong>.output</strong> (dla wejścia zawartego w odpowiednim pliku <strong>.input</strong>, o ile istnieje)</li>
+<li>Gdy kompilator akceptuje program, musi wypisać w pierwszej linii stderr napis OK (<code>"OK\n"</code>). Dalsze linie i stdout - dowolne. Kompilator musi się w takiej sytuacji zakończyć z kodem powrotu 0.</li>
+<li>Gdy kompilator odrzuca program musi wypisać w pierwszej linii stderr napis ERROR (<code>"ERROR\n"</code>). Dalsze linie powinny zawierać stosowne informacje o błędach. Kompilator musi się w takiej sytuacji zakończyć z kodem powrotu różnym od 0.</li>
+<li>Rowiązania wymagające stosowania niestandardowego oprogramowania proszę uzgadniać ze sprawdzającymi. Rozwiązania ściągające w trakcie kompilacji duże ilości danych z sieci nie są mile widziane.</li>
+</ol>
+<h4 id="generacja-kodu-llvm">Generacja kodu LLVM</h4>
+<ol type="1">
+<li>Po wykonaniu <strong>make</strong> w korzeniu projektu ma się znajdować program wykonywalny <strong>latc_llvm</strong></li>
+<li>Wykonanie <strong>latc_llvm foo/bar/baz.lat</strong> dla poprawnego programu wejściowego <strong>baz.lat</strong> ma stworzyć pliki <strong>baz.ll</strong> (kod LLVM) oraz <strong>baz.bc</strong> (bitkod LLVM wykonywalny przy uzyciu <strong>lli</strong>) w katalogu <strong>foo/bar</strong>.</li>
+<li>Ewentualne funkcje biblioteczne (<strong>printInt</strong> etc.) należy umieścić w pliku <strong>runtime.bc</strong> w katalogu <strong>lib</strong> (dodatkowo proszę zamieścić jego źródło)</li>
+</ol>
+<h4 id="generacja-kodu-asemblera">Generacja kodu asemblera</h4>
+<ol type="1">
+<li>Po wykonaniu <strong>make</strong> w korzeniu projektu ma się znajdować program wykonywalny <strong>latc_ARCH</strong> gdzie ARCH to x86 lub x86_64</li>
+<li>Wykonanie <strong>latc_ARCH foo/bar/baz.lat</strong> dla poprawnego programu wejściowego <strong>baz.lat</strong> ma stworzyć pliki <strong>baz.s</strong> (kod asemblera) oraz wykonywalny <strong>baz</strong> w katalogu <strong>foo/bar</strong>.</li>
+<li>Ewentualne funkcje biblioteczne (<strong>printInt</strong> etc.) należy umieścić w pliku <strong>runtime.o</strong> w katalogu <strong>lib</strong> (dodatkowo proszę zamieścić jego źródło)</li>
+</ol>
+<h3 id="testy">Testy</h3>
+<p>Archiwum z programami testowymi:</p>
+<p><a href="Latte/lattests201003.tgz">lattests201003.tgz</a> z 03.10.2020</p>
+<p><a href="https://github.com/tomwys/mrjp-tests">Dodatkowe testy</a> (ułożone przez studentów).</p>
+</body>
+</html>

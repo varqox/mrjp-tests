@@ -1,0 +1,62 @@
+Body {
+  padding: 1em 1em 1em 30px;
+  margin: 0;
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+  background-position: top left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* width: 44em;  */
+  /* text-align: justify ; */
+     }
+
+a:link { color: #00C; background: transparent }
+a:visited { color: #609; background: transparent }
+a:active { color: #C00; background: transparent }
+
+@media screen {  /* hide from IE3 */
+a[href]:hover { 
+  background-color: #ffa ;
+  color: inherit ;
+}}
+
+h1, h2, h3, h4, h5, h6 { text-align: left }
+/* background should be transparent, but WebTV has a bug */
+h1, h2, h3 { color: #005A9C; background: white }
+h1 { font: 170% sans-serif }
+h2 { font: 140% sans-serif }
+h3 { font: 120% sans-serif }
+h4 { font: bold 100% sans-serif }
+h5 { font: italic 100% sans-serif }
+h6 { font: small-caps 100% sans-serif }
+
+.hide { display: none }
+
+Div.Title {
+  text-align: center ;
+}
+
+Div.Abstract {
+  margin-left: 6em;
+  width: 36em ;
+  text-align: justify ;
+}
+  
+Div.Section {
+  width: 200px;  /* But don't use width in twocolumn mode */
+  font-size: 18pt;
+  font-weight: bold;
+  color: #005A9C; background: white
+}
+
+Div.Footer {
+  font-size: 10pt ;
+}
+
+Div.Disclaimer {
+  text-align: right;
+  font-size: 10pt;
+}
+
+Img.border0 { border: 0; }
