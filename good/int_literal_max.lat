@@ -1,0 +1,7 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	printInt(2147483647);
+	printInt(-2147483648);
+	printInt(-(2147483648)); // Special feature: negation skips parenthesis when looking for literal
+	return 0;
+}

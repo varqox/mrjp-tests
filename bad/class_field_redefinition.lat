@@ -1,0 +1,10 @@
+// Author: Krzysztof Małysa (2020)
+class foo {
+	int abc;
+	boolean b;
+	string abc;
+}
+
+int main() {
+	return 0;
+}

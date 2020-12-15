@@ -1,0 +1,7 @@
+ERROR
+[1mbad/void_return_in_func_returning_bool.lat:2:18: [1;31merror: [0;1mnon-void function should return a value[m
+boolean test() { return; }
+                 [1;32m^[m
+[1mbad/void_return_in_func_returning_bool.lat:2:1: [1;34mnote: [0;1mfunction return type is declared here[m
+boolean test() { return; }
+[1;32m^[m

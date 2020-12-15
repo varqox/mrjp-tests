@@ -1,0 +1,13 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	(new G).foo(new X);
+	return 0;
+}
+
+class X {}
+class G {
+	void foo(X x) {
+		if (x == null)
+			error();
+	}
+}

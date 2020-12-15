@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_arr_elem_int_array.lat:4:18: [1;31merror: [0;1massigning to `int` from incompatible type `int[]`[m
+	(new int[3])[1] = new int[3];
+	                [1;32m^[m

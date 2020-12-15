@@ -1,0 +1,6 @@
+// Author: Krzysztof Małysa (2020)
+void foo() {}
+int main() {
+	new int[3] <= foo();
+	return 0;
+}

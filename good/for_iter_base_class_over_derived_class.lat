@@ -1,0 +1,38 @@
+// Author: Krzysztof Małysa (2020)
+class X {
+	int x;
+
+	void foo() {
+		x = 42;
+	}
+}
+
+class Y extends X {
+	void foo() {
+		x = 142;
+	}
+}
+
+int main() {
+	X[] arrx = new X[2];
+	arrx[0] = new X;
+	arrx[1] = new Y;
+	int iter = 0;
+	for (X x : arrx) {
+		x.foo();
+		if (iter == 0) {
+			if (x.x != 42) error();
+		} else {
+			if (x.x != 142) error();
+		}
+		iter++;
+	}
+
+	Y[] arry = new Y[1];
+	arry[0] = new Y;
+	for (X x : arry) {
+		x.foo();
+		if (x.x != 142) error();
+	}
+	return 0;
+}

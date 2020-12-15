@@ -1,0 +1,7 @@
+// Author: Krzysztof Małysa (2020)
+void test() {
+	if (42) {} else {}
+}
+int main() {
+	return 0;
+}

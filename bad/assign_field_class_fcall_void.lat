@@ -1,0 +1,15 @@
+// Author: Krzysztof Małysa (2020)
+class Y extends X {}
+class X {}
+void vfunc() {}
+class C {
+	Y fld;
+}
+C foo() { return null; }
+
+void tester() {
+	foo().fld = vfunc();
+}
+int main() {
+	return 0;
+}

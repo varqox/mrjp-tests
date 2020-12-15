@@ -1,0 +1,8 @@
+// Author: Krzysztof Małysa (2020)
+void foo() {}
+
+int main() {
+	int[] arr;
+	arr[foo()];
+	return 0;
+}

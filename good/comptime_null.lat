@@ -1,0 +1,5 @@
+// Author: Krzysztof Małysa (2020)
+class X {}
+int main() {
+	if (null == (X)null) return 0;
+}

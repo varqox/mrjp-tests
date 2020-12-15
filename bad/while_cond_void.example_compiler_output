@@ -1,0 +1,4 @@
+ERROR
+[1mbad/while_cond_void.lat:4:8: [1;31merror: [0;1mwhile condition has to be of type `boolean`, not `void`[m
+	while(vfunc()) {}
+	      [1;32m^[m

@@ -1,0 +1,7 @@
+ERROR
+[1mbad/func_call_invalid_arg_conversion_class_to_string.lat:5:6: [1;31merror: [0;1mvalue of type `X` is not convertible to type `string`[m
+	foo(new X);
+	    [1;32m^[m
+[1mbad/func_call_invalid_arg_conversion_class_to_string.lat:9:1: [1;34mnote: [0;1m`foo` declared here[m
+void foo(string s) {}
+[1;32m^[m

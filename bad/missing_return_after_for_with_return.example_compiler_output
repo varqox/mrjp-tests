@@ -1,0 +1,7 @@
+ERROR
+[1mbad/missing_return_after_for_with_return.lat:3:2: [1;35mwarning: [0;1mfor will execute at most once, because its body always stops execution[m
+	for (int x : new int[readInt()]) return 0;
+	[1;32m^[m
+[1mbad/missing_return_after_for_with_return.lat:2:1: [1;31merror: [0;1mfunction does not return a value in all control paths[m
+int main() {
+[1;32m^[m

@@ -1,0 +1,7 @@
+OK
+[1mwarnings/bin_op_and_left_side_always_true_right_side_always_false.lat:3:7: [1;35mwarning: [0;1m`&&` can be eliminated because right side always evaluates to false[m
+	true && false;
+	     [1;32m^[m
+[1mwarnings/bin_op_and_left_side_always_true_right_side_always_false.lat:3:10: [1;34mnote: [0;1mright side starts here[m
+	true && false;
+	        [1;32m^[m

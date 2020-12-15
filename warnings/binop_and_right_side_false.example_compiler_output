@@ -1,0 +1,7 @@
+OK
+[1mwarnings/binop_and_right_side_false.lat:5:10: [1;35mwarning: [0;1m`&&` can be eliminated because right side always evaluates to false[m
+	btrue() && false;
+	        [1;32m^[m
+[1mwarnings/binop_and_right_side_false.lat:5:13: [1;34mnote: [0;1mright side starts here[m
+	btrue() && false;
+	           [1;32m^[m

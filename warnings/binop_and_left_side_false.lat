@@ -1,0 +1,7 @@
+// Author: Krzysztof Małysa (2020)
+boolean btrue() { return true; }
+
+int main() {
+	false && btrue();
+	return 0;
+}

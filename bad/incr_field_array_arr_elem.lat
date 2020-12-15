@@ -1,0 +1,11 @@
+// Author: Krzysztof Małysa (2020)
+class C {
+	int[] fld;
+}
+
+void tester() {
+	(new C[1])[2].fld++;
+}
+int main() {
+	return 0;
+}

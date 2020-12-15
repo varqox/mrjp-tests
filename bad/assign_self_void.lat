@@ -1,0 +1,11 @@
+// Author: Krzysztof Małysa (2020)
+void vfunc() {}
+
+class TEST {
+void tester() {
+	self = vfunc();
+}
+}
+int main() {
+	return 0;
+}

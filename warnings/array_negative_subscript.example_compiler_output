@@ -1,0 +1,4 @@
+OK
+[1mwarnings/array_negative_subscript.lat:4:5: [1;35mwarning: [0;1marray index -1 is before the beginning of the array[m
+	arr[42 - 43];
+	   [1;32m^[m

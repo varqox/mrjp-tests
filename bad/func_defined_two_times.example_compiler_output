@@ -1,0 +1,7 @@
+ERROR
+[1mbad/func_defined_two_times.lat:4:1: [1;31merror: [0;1mcannot redefine function `foo` that is already defined[m
+int foo(int x) { return x; }
+[1;32m^[m
+[1mbad/func_defined_two_times.lat:2:1: [1;34mnote: [0;1mprevious definition is here[m
+void foo() {}
+[1;32m^[m

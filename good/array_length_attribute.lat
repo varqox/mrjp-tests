@@ -1,0 +1,5 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	if ((new int[4]).length != 4) error();
+	return 0;
+}

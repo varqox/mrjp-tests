@@ -1,0 +1,4 @@
+ERROR
+[1mbad/method_call_non_class_type_void.lat:5:7: [1;31merror: [0;1mnon-class type `void` has no methods[m
+	foo().foo();
+	     [1;32m^[m

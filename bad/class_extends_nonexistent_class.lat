@@ -1,0 +1,6 @@
+// Author: Krzysztof Małysa (2020)
+class A extends B {}
+
+int main() {
+	return 0;
+}

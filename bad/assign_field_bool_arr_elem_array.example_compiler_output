@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_field_bool_arr_elem_array.lat:7:20: [1;31merror: [0;1massigning to `boolean` from incompatible type `int[]`[m
+	(new C[1])[2].fld = new int[3];
+	                  [1;32m^[m

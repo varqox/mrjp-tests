@@ -1,0 +1,8 @@
+// Author: Krzysztof Małysa (2020)
+class X {}
+class Y {}
+
+int main() {
+	new X == new Y;
+	return 0;
+}

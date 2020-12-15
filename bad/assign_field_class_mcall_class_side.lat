@@ -1,0 +1,17 @@
+// Author: Krzysztof Małysa (2020)
+class Y extends X {}
+class X {}
+class Z extends X {}
+class C {
+	Y fld;
+}
+class M {
+	C foo() { return null; }
+}
+
+void tester() {
+	(new M).foo().fld = new Z;
+}
+int main() {
+	return 0;
+}

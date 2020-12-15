@@ -1,0 +1,4 @@
+ERROR
+[1mbad/var_decl_init_invalid_conversion_array_bool.lat:3:10: [1;31merror: [0;1mincompatible types: cannot assign variable of type `int[]` with an expression of type `boolean`[m
+	int[] x = true;
+	        [1;32m^[m

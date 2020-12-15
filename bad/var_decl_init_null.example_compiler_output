@@ -1,0 +1,4 @@
+ERROR
+[1mbad/var_decl_init_null.lat:3:7: [1;31merror: [0;1msyntax error at x[m
+	null x = null;
+	     [1;32m^[m

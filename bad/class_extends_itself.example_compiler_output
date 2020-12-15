@@ -1,0 +1,4 @@
+ERROR
+[1mbad/class_extends_itself.lat:2:1: [1;31merror: [0;1mclass hierarchy contains a cycle: `A extends A`[m
+class A extends A {}
+[1;32m^[m

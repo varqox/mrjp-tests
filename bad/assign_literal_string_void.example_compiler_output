@@ -1,0 +1,7 @@
+ERROR
+[1mbad/assign_literal_string_void.lat:5:8: [1;31merror: [0;1mleft side is not assignable[m
+	"abc" = vfunc();
+	      [1;32m^[m
+[1mbad/assign_literal_string_void.lat:5:6: [1;34mnote: [0;1mleft side starts here[m
+	"abc" = vfunc();
+	    [1;32m^[m

@@ -1,0 +1,32 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	check_constexpr();
+	check_runtime();
+	return 0;
+}
+
+int check_constexpr() {
+	if (!true) error();
+	else if (!(!false)) error();
+
+	else if (-42 != 100 - 142) error();
+	else if (42 != -(100 - 142)) error();
+
+	else return 0;
+}
+
+boolean btrue() { return true; }
+boolean bfalse() { return false; }
+
+int im42() { return -42; }
+int i42() { return 42; }
+int i100() { return 100; }
+int i142() { return 142; }
+
+void check_runtime() {
+	if (!btrue()) error();
+	if (!(!bfalse())) error();
+
+	if (im42() != i100() - i142()) error();
+	if (i42() != -(i100() - i142())) error();
+}

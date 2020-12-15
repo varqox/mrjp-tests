@@ -1,0 +1,6 @@
+// Author: Krzysztof Małysa (2020)
+string readString() { return ":p"; }
+
+int main() {
+	return 0;
+}

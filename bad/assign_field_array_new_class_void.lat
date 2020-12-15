@@ -1,0 +1,12 @@
+// Author: Krzysztof Małysa (2020)
+void vfunc() {}
+class C {
+	int[] fld;
+}
+
+void tester() {
+	(new C).fld = vfunc();
+}
+int main() {
+	return 0;
+}

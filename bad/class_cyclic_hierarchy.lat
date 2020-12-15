@@ -1,0 +1,12 @@
+// Author: Krzysztof Małysa (2020)
+class A extends C {}
+class B extends C {}
+class C extends X {}
+
+class X extends Z {}
+class Y extends X {}
+class Z extends Y {}
+
+int main() {
+	return 0;
+}

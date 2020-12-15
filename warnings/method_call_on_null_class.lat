@@ -1,0 +1,9 @@
+// Author: Krzysztof Małysa (2020)
+class X {
+	void foo() {}
+}
+
+int main() {
+	((X)null).foo();
+	return 0;
+}

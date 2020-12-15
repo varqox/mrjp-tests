@@ -1,0 +1,32 @@
+// Author: Krzysztof Małysa (2020)
+class X {
+	int x;
+
+	int getX() { return x; }
+}
+
+class Y extends X {
+	string y;
+
+	string getY() { return y; }
+
+	void test() {
+		x = 142;
+		y = "abc";
+		if (x != self.x || self.x != 142) error();
+		if (getX() != 142 || self.getX() != 142) error();
+
+		if (y != self.y || self.y != "abc") error();
+		if (getY() != "abc" || self.getY() != "abc") error();
+
+		Y yy = self;
+		if (yy != self) error();
+		if (yy.x != x) error();
+		if (yy.y != y) error();
+	}
+}
+
+int main() {
+	(new Y).test();
+	return 0;
+}

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/return_void_in_func_returning_array.lat:3:23: [1;31merror: [0;1mreturned value of type `void` is not convertible to return type `int[]`[m
+int[] test() { return foo(); }
+                      [1;32m^[m

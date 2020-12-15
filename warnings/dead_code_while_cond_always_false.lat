@@ -1,0 +1,7 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	while (42 == -42) {
+		printInt(142);
+	}
+	return 0;
+}

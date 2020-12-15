@@ -1,0 +1,6 @@
+// Author: Krzysztof Małysa (2020)
+void foo(list x) {}
+
+int main() {
+	return 0;
+}

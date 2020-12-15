@@ -1,0 +1,4 @@
+ERROR
+[1mbad/use_of_undefined_variable_in_function.lat:3:10: [1;31merror: [0;1muse of undeclared variable `y`[m
+	int x = y;
+	        [1;32m^[m

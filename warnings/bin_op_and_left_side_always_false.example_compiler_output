@@ -1,0 +1,10 @@
+OK
+[1mwarnings/bin_op_and_left_side_always_false.lat:3:11: [1;35mwarning: [0;1mexpression will never be evaluated[m
+	false && (42 / 0 == 2);
+	         [1;32m^[m
+[1mwarnings/bin_op_and_left_side_always_false.lat:3:8: [1;34mnote: [0;1mbecause left side of `&&` evaluates to false[m
+	false && (42 / 0 == 2);
+	      [1;32m^[m
+[1mwarnings/bin_op_and_left_side_always_false.lat:3:2: [1;34mnote: [0;1mleft side starts here[m
+	false && (42 / 0 == 2);
+	[1;32m^[m

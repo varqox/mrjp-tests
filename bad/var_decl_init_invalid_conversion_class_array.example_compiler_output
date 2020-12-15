@@ -1,0 +1,4 @@
+ERROR
+[1mbad/var_decl_init_invalid_conversion_class_array.lat:5:6: [1;31merror: [0;1mincompatible types: cannot assign variable of type `Y` with an expression of type `int[]`[m
+	Y x = new int[3];
+	    [1;32m^[m

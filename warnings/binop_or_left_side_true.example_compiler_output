@@ -1,0 +1,10 @@
+OK
+[1mwarnings/binop_or_left_side_true.lat:5:10: [1;35mwarning: [0;1mexpression will never be evaluated[m
+	true || bfalse();
+	        [1;32m^[m
+[1mwarnings/binop_or_left_side_true.lat:5:7: [1;34mnote: [0;1mbecause left side of `||` evaluates to true[m
+	true || bfalse();
+	     [1;32m^[m
+[1mwarnings/binop_or_left_side_true.lat:5:2: [1;34mnote: [0;1mleft side starts here[m
+	true || bfalse();
+	[1;32m^[m

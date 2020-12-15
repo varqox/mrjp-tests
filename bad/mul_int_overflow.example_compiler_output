@@ -1,0 +1,4 @@
+ERROR
+[1mbad/mul_int_overflow.lat:3:14: [1;31merror: [0;1minteger overflow in expression -2147483648 * -1[m
+	-2147483648 * (-1);
+	            [1;32m^[m

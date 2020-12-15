@@ -1,0 +1,25 @@
+// Author: Krzysztof Małysa (2020)
+class X {
+	void foo() {
+		printInt(42);
+		printString("abc\nxyz");
+		int x = readInt();
+		string s = readString();
+		printInt(x);
+		printString(s);
+		if (x == 0) error();
+	}
+}
+
+int main() {
+	printInt(42);
+	printString("abc\nxyz");
+	int x = readInt();
+	string s = readString();
+	printInt(x);
+	printString(s);
+	if (x == 0) error();
+
+	(new X).foo();
+	return 0;
+}

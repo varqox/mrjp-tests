@@ -1,0 +1,9 @@
+// Author: Krzysztof Małysa (2020)
+
+void tester() {
+	boolean x;
+	x = "";
+}
+int main() {
+	return 0;
+}

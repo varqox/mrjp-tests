@@ -1,0 +1,4 @@
+ERROR
+[1mbad/return_void_in_func_returning_string.lat:3:24: [1;31merror: [0;1mreturned value of type `void` is not convertible to return type `string`[m
+string test() { return foo(); }
+                       [1;32m^[m

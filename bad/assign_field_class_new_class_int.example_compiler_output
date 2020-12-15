@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_field_class_new_class_int.lat:9:14: [1;31merror: [0;1massigning to `Y` from incompatible type `int`[m
+	(new C).fld = 42;
+	            [1;32m^[m

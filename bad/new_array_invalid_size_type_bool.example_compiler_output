@@ -1,0 +1,4 @@
+ERROR
+[1mbad/new_array_invalid_size_type_bool.lat:3:20: [1;31merror: [0;1marray size has to be of type `int`, not `boolean`[m
+	int[] x = new int[true];
+	                  [1;32m^[m

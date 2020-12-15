@@ -1,0 +1,4 @@
+ERROR
+[1mbad/mod_invalid_types_void_string.lat:5:8: [1;31merror: [0;1mmodulo is defined only for int values, not `void` and `string`[m
+	foo() % "xyz";
+	      [1;32m^[m

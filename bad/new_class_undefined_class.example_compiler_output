@@ -1,0 +1,4 @@
+ERROR
+[1mbad/new_class_undefined_class.lat:3:2: [1;31merror: [0;1muse of undeclared class `list`[m
+	new list;
+	[1;32m^[m

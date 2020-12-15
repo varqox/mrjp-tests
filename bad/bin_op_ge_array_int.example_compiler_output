@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_ge_array_int.lat:3:13: [1;31merror: [0;1moperator >= is defined only for int values and string values, not `int[]` and `int`[m
+	new int[3] >= 42;
+	           [1;32m^[m

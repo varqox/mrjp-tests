@@ -1,0 +1,7 @@
+OK
+[1mwarnings/method_call_on_null_class.lat:7:11: [1;35mwarning: [0;1mcalling method on a null object[m
+	((X)null).foo();
+	         [1;32m^[m
+[1mwarnings/method_call_on_null_class.lat:7:2: [1;34mnote: [0;1mexpression evaluates to null reference of type `X`[m
+	((X)null).foo();
+	[1;32m^[m

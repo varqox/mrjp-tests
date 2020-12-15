@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_ne_void_null.lat:4:8: [1;31merror: [0;1moperator != cannot compare values of types `void` and `null` because values are not convertible to either of the two types[m
+	foo() != null;
+	      [1;32m^[m

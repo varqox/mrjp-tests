@@ -1,0 +1,7 @@
+ERROR
+[1mbad/class_method_redefinition.lat:5:2: [1;31merror: [0;1mclass cannot contain two methods with the same name[m
+	int abc(int x) { return x; }
+	[1;32m^[m
+[1mbad/class_method_redefinition.lat:3:2: [1;34mnote: [0;1mprevious definition is here[m
+	void abc() {}
+	[1;32m^[m

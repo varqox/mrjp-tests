@@ -1,0 +1,7 @@
+ERROR
+[1mbad/func_call_invalid_arg_conversion_bool_to_string.lat:3:6: [1;31merror: [0;1mvalue of type `boolean` is not convertible to type `string`[m
+	foo(false);
+	    [1;32m^[m
+[1mbad/func_call_invalid_arg_conversion_bool_to_string.lat:7:1: [1;34mnote: [0;1m`foo` declared here[m
+void foo(string s) {}
+[1;32m^[m

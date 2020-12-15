@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_field_string_fcall_int.lat:8:12: [1;31merror: [0;1massigning to `string` from incompatible type `int`[m
+	foo().fld = 42;
+	          [1;32m^[m

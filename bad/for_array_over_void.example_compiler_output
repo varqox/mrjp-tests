@@ -1,0 +1,4 @@
+ERROR
+[1mbad/for_array_over_void.lat:4:17: [1;31merror: [0;1mfor cannot iterate over value of non-array type `void`[m
+	for (int[] x : vfunc()) {}
+	               [1;32m^[m

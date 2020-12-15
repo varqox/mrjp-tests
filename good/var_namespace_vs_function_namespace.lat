@@ -1,0 +1,7 @@
+// Author: Krzysztof Małysa (2020)
+int foo() { return 42; }
+int main() {
+    int foo = 3;
+    if (foo() + foo != 45) error();
+    return 0;
+}

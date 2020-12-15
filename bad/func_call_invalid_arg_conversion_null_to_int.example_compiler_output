@@ -1,0 +1,7 @@
+ERROR
+[1mbad/func_call_invalid_arg_conversion_null_to_int.lat:3:6: [1;31merror: [0;1mvalue of type `null` is not convertible to type `int`[m
+	foo(null);
+	    [1;32m^[m
+[1mbad/func_call_invalid_arg_conversion_null_to_int.lat:7:1: [1;34mnote: [0;1m`foo` declared here[m
+void foo(int x) {}
+[1;32m^[m

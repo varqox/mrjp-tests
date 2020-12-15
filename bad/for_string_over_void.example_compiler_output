@@ -1,0 +1,4 @@
+ERROR
+[1mbad/for_string_over_void.lat:4:18: [1;31merror: [0;1mfor cannot iterate over value of non-array type `void`[m
+	for (string x : vfunc()) {}
+	                [1;32m^[m

@@ -1,0 +1,7 @@
+ERROR
+[1mbad/class_field_redefines_base_class_field.lat:7:13: [1;31merror: [0;1mcannot redefine field `foo` defined in class `Base`[m
+    boolean foo;
+            [1;32m^[m
+[1mbad/class_field_redefines_base_class_field.lat:3:9: [1;34mnote: [0;1mprevious definition is here[m
+    int foo;
+        [1;32m^[m

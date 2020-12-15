@@ -1,0 +1,4 @@
+ERROR
+[1mbad/for_class_over_class_down.lat:5:13: [1;31merror: [0;1mfor cannot iterate over value of non-array type `X`[m
+	for (Y x : new X) {}
+	           [1;32m^[m

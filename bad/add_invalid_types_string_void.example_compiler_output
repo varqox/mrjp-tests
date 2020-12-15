@@ -1,0 +1,4 @@
+ERROR
+[1mbad/add_invalid_types_string_void.lat:5:8: [1;31merror: [0;1maddition is defined only for int values or string values, not `string` and `void`[m
+	"abc" + foo();
+	      [1;32m^[m

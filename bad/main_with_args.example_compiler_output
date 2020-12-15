@@ -1,0 +1,4 @@
+ERROR
+[1mbad/main_with_args.lat:2:10: [1;31merror: [0;1mfunction `main` cannot take arguments[m
+int main(int a, int b) {
+         [1;32m^[m

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_and_invalid_laziness.lat:3:5: [1;31merror: [0;1mdivision by 0 in expression 1 / 0[m
+	(1 / 0 == 42) && false;
+	   [1;32m^[m

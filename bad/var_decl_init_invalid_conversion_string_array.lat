@@ -1,0 +1,5 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	string x = new int[3];
+	return 0;
+}

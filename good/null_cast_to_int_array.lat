@@ -1,0 +1,6 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+    (int[])null == null;
+    (int[][])null == null;
+    return 0;
+}

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/var_decl_init_invalid_conversion_bool_class.lat:5:12: [1;31merror: [0;1mincompatible types: cannot assign variable of type `boolean` with an expression of type `Y`[m
+	boolean x = new Y;
+	          [1;32m^[m

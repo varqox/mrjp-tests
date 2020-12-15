@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_ge_class_class.lat:5:8: [1;31merror: [0;1moperator >= is defined only for int values and string values, not `Y` and `Y`[m
+	new Y >= new Y;
+	      [1;32m^[m

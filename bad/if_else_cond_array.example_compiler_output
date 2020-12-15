@@ -1,0 +1,4 @@
+ERROR
+[1mbad/if_else_cond_array.lat:3:6: [1;31merror: [0;1mif condition has to be of type `boolean`, not `int[]`[m
+	if (new int[3]) {} else {}
+	    [1;32m^[m

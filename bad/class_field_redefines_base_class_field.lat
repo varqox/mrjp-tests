@@ -1,0 +1,13 @@
+// Author: Krzysztof Małysa (2020)
+class Base {
+    int foo;
+    string bar;
+}
+class Derived extends Base {
+    boolean foo;
+    int x;
+}
+
+int main() {
+	return 0;
+}

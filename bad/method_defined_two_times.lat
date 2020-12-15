@@ -1,0 +1,10 @@
+// Author: Krzysztof Małysa (2020)
+class G {
+	void foo() {}
+	int bar() { return 42; }
+	int foo(int x) { return x; }
+}
+
+int main() {
+	return 0;
+}

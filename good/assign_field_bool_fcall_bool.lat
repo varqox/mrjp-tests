@@ -1,0 +1,12 @@
+// Author: Krzysztof Małysa (2020)
+class C {
+	boolean fld;
+}
+C foo() { return null; }
+
+void tester() {
+	foo().fld = true;
+}
+int main() {
+	return 0;
+}

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/method_call_undeclared_function.lat:3:9: [1;31merror: [0;1mcall to undefined method `foo`[m
+	(new G).foo(42, "");
+	       [1;32m^[m

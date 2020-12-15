@@ -1,0 +1,10 @@
+// Author: Krzysztof Małysa (2020)
+void vfunc() {}
+int foo() { return 0; }
+
+void tester() {
+	foo() = vfunc();
+}
+int main() {
+	return 0;
+}

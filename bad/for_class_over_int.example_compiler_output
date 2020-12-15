@@ -1,0 +1,4 @@
+ERROR
+[1mbad/for_class_over_int.lat:5:13: [1;31merror: [0;1mfor cannot iterate over value of non-array type `int`[m
+	for (Y x : 42) {}
+	           [1;32m^[m

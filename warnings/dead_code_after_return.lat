@@ -1,0 +1,12 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	return 0;
+}
+
+string test_simple_return() {
+	;;;;;;;;;;;
+	return "ho ho ho";
+	readInt();
+	printString("bla bla bla");
+	return "";
+}

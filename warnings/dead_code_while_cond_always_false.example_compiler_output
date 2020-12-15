@@ -1,0 +1,4 @@
+OK
+[1mwarnings/dead_code_while_cond_always_false.lat:3:2: [1;35mwarning: [0;1mwhole while is dead code because while condition always evaluates to false[m
+	while (42 == -42) {
+	[1;32m^[m

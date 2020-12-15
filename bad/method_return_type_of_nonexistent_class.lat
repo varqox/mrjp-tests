@@ -1,0 +1,8 @@
+// Author: Krzysztof Małysa (2020)
+class A {
+	list foo(int x) {}
+}
+
+int main() {
+	return 0;
+}

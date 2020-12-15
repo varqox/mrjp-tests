@@ -1,0 +1,7 @@
+OK
+[1mwarnings/dead_code_in_while_after_return.lat:5:3: [1;35mwarning: [0;1mthis code will never be executed[m
+		readInt();
+		[1;32m^[m
+[1mwarnings/dead_code_in_while_after_return.lat:6:3: [1;35mwarning: [0;1mthis code will never be executed[m
+		printString("bla bla bla");
+		[1;32m^[m

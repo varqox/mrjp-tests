@@ -1,0 +1,4 @@
+ERROR
+[1mbad/for_class_over_void.lat:6:13: [1;31merror: [0;1mfor cannot iterate over value of non-array type `void`[m
+	for (Y x : vfunc()) {}
+	           [1;32m^[m

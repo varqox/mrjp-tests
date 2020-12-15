@@ -1,0 +1,4 @@
+ERROR
+[1mbad/field_access_undefined_field.lat:5:9: [1;31merror: [0;1mclass `X` has no field named `bar`[m
+	(new X).bar;
+	       [1;32m^[m

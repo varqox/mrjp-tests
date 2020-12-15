@@ -1,0 +1,7 @@
+ERROR
+[1mbad/assign_func_call_array_void.lat:6:8: [1;31merror: [0;1mleft side is not assignable[m
+	foo() = vfunc();
+	      [1;32m^[m
+[1mbad/assign_func_call_array_void.lat:6:2: [1;34mnote: [0;1mleft side starts here[m
+	foo() = vfunc();
+	[1;32m^[m

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_le_string_void.lat:4:5: [1;31merror: [0;1moperator <= is defined only for int values and string values, not `string` and `void`[m
+	"" <= foo();
+	   [1;32m^[m

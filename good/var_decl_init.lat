@@ -1,0 +1,44 @@
+// Author: Krzysztof Małysa (2020)
+class Z {}
+
+class X {
+	int xi;
+	string xs;
+	boolean xb;
+	int[][] xarr;
+	Z xz;
+}
+
+class Y extends X {
+	int yi;
+	string ys;
+	boolean yb;
+	int[][] yarr;
+	Z yz;
+}
+
+int main() {
+	int i = -142;
+	if (i != -142) error();
+	string s = "test";
+	if (s != "test") error();
+	boolean b = true;
+	if (!b) error();
+	int[][] arr = new int[][4];
+	if (arr == null || arr.length != 4 || arr[0] != null || arr[1] != null || arr[2] != null || arr[3] != null) error();
+	Y y = new Y;
+	if (y == null) error();
+	if (y.xi != 0) error();
+	if (y.xs != "") error();
+	if (y.xb) error();
+	if (y.xarr != null) error();
+	if (y.xz != null) error();
+	if (y.yi != 0) error();
+	if (y.ys != "") error();
+	if (y.yb) error();
+	if (y.yarr != null) error();
+	if (y.yz != null) error();
+	X x = y;
+	if (x != y) error();
+	return 0;
+}

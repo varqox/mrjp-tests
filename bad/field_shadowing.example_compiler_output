@@ -1,0 +1,7 @@
+ERROR
+[1mbad/field_shadowing.lat:7:9: [1;31merror: [0;1mcannot redefine field `x` defined in class `X`[m
+	string x;
+	       [1;32m^[m
+[1mbad/field_shadowing.lat:3:6: [1;34mnote: [0;1mprevious definition is here[m
+	int x;
+	    [1;32m^[m

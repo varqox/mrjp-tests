@@ -1,0 +1,4 @@
+ERROR
+[1mbad/for_string_over_bool.lat:3:18: [1;31merror: [0;1mfor cannot iterate over value of non-array type `boolean`[m
+	for (string x : true) {}
+	                [1;32m^[m

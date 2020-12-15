@@ -1,0 +1,7 @@
+ERROR
+[1mbad/var_decl_noinit_shadows_same_decl.lat:3:9: [1;31merror: [0;1mcannot redefine variable `x`[m
+	int x, x;
+	       [1;32m^[m
+[1mbad/var_decl_noinit_shadows_same_decl.lat:3:6: [1;34mnote: [0;1mprevious definition is here[m
+	int x, x;
+	    [1;32m^[m

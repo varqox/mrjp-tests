@@ -1,0 +1,4 @@
+ERROR
+[1mbad/field_access_non_class_type_array.lat:3:14: [1;31merror: [0;1marray has no field named `size`[m
+	(new int[4]).size;
+	            [1;32m^[m

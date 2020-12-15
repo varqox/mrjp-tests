@@ -1,0 +1,10 @@
+// Author: Krzysztof Małysa (2020)
+
+void tester() {
+	string x, y;
+	x = "abc"; y = "";
+	x == y = "";
+}
+int main() {
+	return 0;
+}

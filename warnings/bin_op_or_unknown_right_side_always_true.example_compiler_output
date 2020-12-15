@@ -1,0 +1,7 @@
+OK
+[1mwarnings/bin_op_or_unknown_right_side_always_true.lat:4:10: [1;35mwarning: [0;1m`||` can be eliminated because right side always evaluates to true[m
+	(x > 0) || true;
+	        [1;32m^[m
+[1mwarnings/bin_op_or_unknown_right_side_always_true.lat:4:13: [1;34mnote: [0;1mright side starts here[m
+	(x > 0) || true;
+	           [1;32m^[m

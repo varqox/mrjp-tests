@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_lth_class_bool.lat:5:8: [1;31merror: [0;1moperator < is defined only for int values and string values, not `Y` and `boolean`[m
+	new Y < true;
+	      [1;32m^[m

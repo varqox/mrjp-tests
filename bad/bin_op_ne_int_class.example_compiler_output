@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_ne_int_class.lat:5:5: [1;31merror: [0;1moperator != cannot compare values of types `int` and `Y` because values are not convertible to either of the two types[m
+	42 != new Y;
+	   [1;32m^[m

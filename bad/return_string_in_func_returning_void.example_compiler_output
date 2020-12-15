@@ -1,0 +1,4 @@
+ERROR
+[1mbad/return_string_in_func_returning_void.lat:3:23: [1;31merror: [0;1mreturned value of type `string` is not convertible to return type `void`[m
+void test() { return ""; }
+                      [1;32m^[m

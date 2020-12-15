@@ -1,0 +1,10 @@
+// Author: Krzysztof Małysa (2020)
+class X {}
+class Y extends X {}
+
+int main() {
+	foo(new Y);
+	return 0;
+}
+
+void foo(X a) {}

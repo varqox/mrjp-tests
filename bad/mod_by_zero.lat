@@ -1,0 +1,5 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	82625 % 0;
+	return 0;
+}

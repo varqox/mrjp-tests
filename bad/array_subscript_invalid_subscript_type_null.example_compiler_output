@@ -1,0 +1,4 @@
+ERROR
+[1mbad/array_subscript_invalid_subscript_type_null.lat:4:5: [1;31merror: [0;1marray subscript has to be of type `int`, not `null`[m
+	arr[null];
+	   [1;32m^[m

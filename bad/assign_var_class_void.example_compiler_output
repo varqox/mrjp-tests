@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_var_class_void.lat:8:4: [1;31merror: [0;1massigning to `Y` from incompatible type `void`[m
+	x = vfunc();
+	  [1;32m^[m

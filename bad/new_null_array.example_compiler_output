@@ -1,0 +1,4 @@
+ERROR
+[1mbad/new_null_array.lat:3:6: [1;31merror: [0;1msyntax error at null[m
+	new null[42];
+	    [1;32m^[m

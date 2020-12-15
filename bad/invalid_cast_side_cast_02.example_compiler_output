@@ -1,0 +1,4 @@
+ERROR
+[1mbad/invalid_cast_side_cast_02.lat:8:6: [1;31merror: [0;1mincompatible types: cannot assign variable of type `Z` with an expression of type `Y`[m
+	Z x = (Y)null;
+	    [1;32m^[m

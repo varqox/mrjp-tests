@@ -1,0 +1,4 @@
+ERROR
+[1mbad/mod_invalid_types_string_bool.lat:3:5: [1;31merror: [0;1mmodulo is defined only for int values, not `string` and `boolean`[m
+	"" % false;
+	   [1;32m^[m

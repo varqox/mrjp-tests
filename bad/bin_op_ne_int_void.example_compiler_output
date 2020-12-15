@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_ne_int_void.lat:4:5: [1;31merror: [0;1moperator != cannot compare values of types `int` and `void` because values are not convertible to either of the two types[m
+	42 != foo();
+	   [1;32m^[m

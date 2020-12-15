@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bool_negation_of_int.lat:3:2: [1;31merror: [0;1mcannot negate value of non-boolean type `int`[m
+	!42;
+	[1;32m^[m

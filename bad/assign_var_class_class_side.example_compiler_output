@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_var_class_class_side.lat:8:4: [1;31merror: [0;1massigning to `Y` from incompatible type `Z`[m
+	x = new Z;
+	  [1;32m^[m

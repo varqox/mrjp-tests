@@ -1,0 +1,4 @@
+ERROR
+[1mbad/new_array_invalid_size_type_string.lat:3:21: [1;31merror: [0;1marray size has to be of type `int`, not `string`[m
+	int[] x = new int[""];
+	                   [1;32m^[m

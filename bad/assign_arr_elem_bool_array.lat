@@ -1,0 +1,8 @@
+// Author: Krzysztof Małysa (2020)
+
+void tester() {
+	(new boolean[3])[1] = new int[3];
+}
+int main() {
+	return 0;
+}

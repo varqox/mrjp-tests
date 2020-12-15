@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_field_int_of_field_array.lat:10:16: [1;31merror: [0;1massigning to `int` from incompatible type `int[]`[m
+	(new D).c.fld = new int[3];
+	              [1;32m^[m

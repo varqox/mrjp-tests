@@ -1,0 +1,4 @@
+ERROR
+[1mbad/return_null_in_func_returning_bool.lat:2:25: [1;31merror: [0;1mreturned value of type `null` is not convertible to return type `boolean`[m
+boolean test() { return null; }
+                        [1;32m^[m

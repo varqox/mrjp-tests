@@ -1,0 +1,10 @@
+OK
+[1mwarnings/dead_code_after_if_true.lat:10:2: [1;35mwarning: [0;1mthis code will never be executed[m
+	readInt();
+	[1;32m^[m
+[1mwarnings/dead_code_after_if_true.lat:11:2: [1;35mwarning: [0;1mthis code will never be executed[m
+	printString("bla bla bla");
+	[1;32m^[m
+[1mwarnings/dead_code_after_if_true.lat:12:2: [1;35mwarning: [0;1mthis code will never be executed[m
+	return 42;
+	[1;32m^[m

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_lth_null_array.lat:3:7: [1;31merror: [0;1moperator < is defined only for int values and string values, not `null` and `int[]`[m
+	null < new int[3];
+	     [1;32m^[m

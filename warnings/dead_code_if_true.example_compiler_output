@@ -1,0 +1,7 @@
+OK
+[1mwarnings/dead_code_if_true.lat:4:7: [1;35mwarning: [0;1mdead code[m
+	else {
+	     [1;32m^[m
+[1mwarnings/dead_code_if_true.lat:3:6: [1;34mnote: [0;1mif condition always evaluates to true[m
+	if (44 == 42 + 2) {}
+	    [1;32m^[m

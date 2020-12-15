@@ -1,0 +1,6 @@
+// Author: Krzysztof Małysa (2020)
+class X {}
+int main() {
+	int[] x = new int[new X];
+	return 0;
+}

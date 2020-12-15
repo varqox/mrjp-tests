@@ -1,0 +1,13 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	return 0;
+}
+
+int test_if_true() {
+	if (44 == 42 + 2) {
+		return 0;
+	}
+	readInt();
+	printString("bla bla bla");
+	return 42;
+}

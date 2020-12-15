@@ -1,0 +1,7 @@
+ERROR
+[1mbad/class_field_redefinition_single_decl.lat:3:21: [1;31merror: [0;1mclass cannot contain two fields with the same name[m
+	string a, b, c, d, b, f;
+	                   [1;32m^[m
+[1mbad/class_field_redefinition_single_decl.lat:3:12: [1;34mnote: [0;1mprevious declaration is here[m
+	string a, b, c, d, b, f;
+	          [1;32m^[m

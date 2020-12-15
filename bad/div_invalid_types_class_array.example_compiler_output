@@ -1,0 +1,4 @@
+ERROR
+[1mbad/div_invalid_types_class_array.lat:6:4: [1;31merror: [0;1mdivision is defined only for int values, not `X` and `string[]`[m
+	x / new string[3];
+	  [1;32m^[m

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/undefined_class_field.lat:3:4: [1;31merror: [0;1mUnknown class: X[m
+	((X)null).some_field;
+	  [1;32m^[m

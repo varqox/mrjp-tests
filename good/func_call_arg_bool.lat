@@ -1,0 +1,13 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	foo(true);
+	foo(false);
+	return 0;
+}
+
+void foo(boolean b) {
+	if (b)
+		printString("true");
+	else
+		printString("false");
+}

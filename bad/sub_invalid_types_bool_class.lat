@@ -1,0 +1,8 @@
+// Author: Krzysztof Małysa (2020)
+class X {}
+
+int main() {
+	X x;
+	true - x;
+	return 0;
+}

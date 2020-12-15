@@ -1,0 +1,8 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	if (44 != 42 + 2) {
+		readInt();
+		printString("bla bla bla");
+	}
+	return 0;
+}

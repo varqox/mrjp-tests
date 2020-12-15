@@ -1,0 +1,11 @@
+// Author: Krzysztof Małysa (2020)
+class M {
+	int foo() { return 0; }
+}
+
+void tester() {
+	(new M).foo() = null;
+}
+int main() {
+	return 0;
+}

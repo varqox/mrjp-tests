@@ -1,0 +1,4 @@
+ERROR
+[1mbad/class_cyclic_hierarchy.lat:6:1: [1;31merror: [0;1mclass hierarchy contains a cycle: `X extends Z extends Y extends X`[m
+class X extends Z {}
+[1;32m^[m

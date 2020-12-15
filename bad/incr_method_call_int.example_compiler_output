@@ -1,0 +1,7 @@
+ERROR
+[1mbad/incr_method_call_int.lat:7:15: [1;31merror: [0;1mexpression is not assignable[m
+	(new M).foo()++;
+	             [1;32m^[m
+[1mbad/incr_method_call_int.lat:7:2: [1;34mnote: [0;1mexpression starts here[m
+	(new M).foo()++;
+	[1;32m^[m

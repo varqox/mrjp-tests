@@ -1,0 +1,22 @@
+// Author: Krzysztof Małysa (2020)
+class X {
+	int x;
+}
+
+int incr_x(X x) {
+	x.x++;
+	return x.x;
+}
+
+int main() {
+	X x;
+	while (x.x < 10)
+		int x = incr_x(x);
+	if (x.x != 10) error();
+
+	while (x.x < 20) {
+		x.x = x.x + 7;
+	}
+	if (x.x != 24) error();
+	return 0;
+}

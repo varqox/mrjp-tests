@@ -1,0 +1,14 @@
+// Author: Krzysztof Małysa (2020)
+class X {}
+
+class Y extends X {}
+class Z extends X {}
+
+int main() {
+	int[] a1 = null, a2 = (int[])null;
+	int[][] b1 = null, b2 = (int[][])null;
+	X x1 = null, x2 = (X)null, x3 = (Y)null, x4 = (Z)null;
+	Y y1 = null, y2 = (Y) null;
+	Z z1 = null, z2 = (Z) /* some comment */ null;
+	return 0;
+}

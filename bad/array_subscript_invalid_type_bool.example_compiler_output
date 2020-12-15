@@ -1,0 +1,4 @@
+ERROR
+[1mbad/array_subscript_invalid_type_bool.lat:3:7: [1;31merror: [0;1mvalue of non-array type `boolean` has no subscript operator[m
+	false[42];
+	     [1;32m^[m

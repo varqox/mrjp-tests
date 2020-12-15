@@ -1,0 +1,9 @@
+// Author: Krzysztof Małysa (2020)
+void vfunc() {}
+
+void tester() {
+	new int[][3] = vfunc();
+}
+int main() {
+	return 0;
+}

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/mod_by_zero.lat:3:8: [1;31merror: [0;1mdivision by 0 in expression 82625 % 0[m
+	82625 % 0;
+	      [1;32m^[m

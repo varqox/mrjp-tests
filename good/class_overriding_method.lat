@@ -1,0 +1,12 @@
+// Author: Krzysztof Małysa (2020)
+class A {
+    int foo(string x, boolean y) { return 42; }
+}
+
+class B extends A {
+    int foo(string x, boolean y) { return 13; }
+}
+
+int main() {
+	return 0;
+}

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/mod_invalid_types_class_string.lat:6:4: [1;31merror: [0;1mmodulo is defined only for int values, not `X` and `string`[m
+	x % "";
+	  [1;32m^[m

@@ -1,0 +1,9 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	(new G).foo(new string[42]);
+	return 0;
+}
+
+class G {
+	void foo(string s) {}
+}

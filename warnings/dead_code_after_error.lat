@@ -1,0 +1,11 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	return 0;
+}
+
+int test_error() {
+	error();
+	readInt();
+	printString("bla bla bla");
+	return 42;
+}

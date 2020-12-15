@@ -1,0 +1,4 @@
+ERROR
+[1mbad/var_decl_init_invalid_conversion_int_string.lat:3:8: [1;31merror: [0;1mincompatible types: cannot assign variable of type `int` with an expression of type `string`[m
+	int x = "";
+	      [1;32m^[m

@@ -1,0 +1,7 @@
+// Author: Krzysztof Małysa (2020)
+void test() {
+	for (int[] x : "") {}
+}
+int main() {
+	return 0;
+}

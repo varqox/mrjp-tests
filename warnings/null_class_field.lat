@@ -1,0 +1,9 @@
+// Author: Krzysztof Małysa (2020)
+class X {
+	int a;
+}
+
+int main() {
+	((X)null).a;
+	return 0;
+}

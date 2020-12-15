@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_and_string_null.lat:3:5: [1;31merror: [0;1moperator && is defined only for `boolean` values, not `string` and `null`[m
+	"" && null;
+	   [1;32m^[m

@@ -1,0 +1,9 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	int x = 42;
+	if (true)
+		y;
+	else
+		int y = x;
+	return 0;
+}

@@ -1,0 +1,11 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	int x = 42, y = x;
+	if (y != 42) error();
+
+	int a, b = a;
+	if (a != 0) error();
+	if (b != 0) error();
+
+	return 0;
+}

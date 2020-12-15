@@ -1,0 +1,11 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	foo(new X);
+	return 0;
+}
+
+class X {}
+void foo(X x) {
+	if (x == null)
+		error();
+}

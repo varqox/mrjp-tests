@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_arr_elem_bool_class.lat:6:22: [1;31merror: [0;1massigning to `boolean` from incompatible type `Y`[m
+	(new boolean[3])[1] = new Y;
+	                    [1;32m^[m

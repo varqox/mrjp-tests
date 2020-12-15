@@ -1,0 +1,6 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	if (!true != false) error();
+	if (!false != true) error();
+	return 0;
+}

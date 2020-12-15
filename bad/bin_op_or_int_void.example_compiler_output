@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_or_int_void.lat:4:5: [1;31merror: [0;1moperator || is defined only for `boolean` values, not `int` and `void`[m
+	42 || foo();
+	   [1;32m^[m

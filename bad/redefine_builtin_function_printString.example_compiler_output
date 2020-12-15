@@ -1,0 +1,4 @@
+ERROR
+[1mbad/redefine_builtin_function_printString.lat:2:1: [1;31merror: [0;1mcannot define function having the same name as the predefined function `printString`[m
+void printString(string x) {}
+[1;32m^[m

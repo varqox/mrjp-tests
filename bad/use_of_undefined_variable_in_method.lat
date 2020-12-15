@@ -1,0 +1,10 @@
+// Author: Krzysztof Małysa (2020)
+class A {
+	void foo() {
+		int x = y;
+	}
+}
+
+int main() {
+	return 0;
+}

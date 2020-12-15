@@ -1,0 +1,8 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	for (int x : new int[readInt()]) {
+		printInt(-42);
+		while (true) {}
+	}
+	return 0;
+}

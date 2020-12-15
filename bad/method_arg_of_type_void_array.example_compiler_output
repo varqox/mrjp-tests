@@ -1,0 +1,4 @@
+ERROR
+[1mbad/method_arg_of_type_void_array.lat:3:11: [1;31merror: [0;1mfunction argument `x` cannot have type `void[]`[m
+	void foo(void[] x) {}
+	         [1;32m^[m

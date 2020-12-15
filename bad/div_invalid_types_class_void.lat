@@ -1,0 +1,10 @@
+// Author: Krzysztof Małysa (2020)
+void foo() {}
+
+class X {}
+
+int main() {
+	X x;
+	x / foo();
+	return 0;
+}

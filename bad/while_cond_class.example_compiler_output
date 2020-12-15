@@ -1,0 +1,4 @@
+ERROR
+[1mbad/while_cond_class.lat:5:8: [1;31merror: [0;1mwhile condition has to be of type `boolean`, not `Y`[m
+	while(new Y) {}
+	      [1;32m^[m

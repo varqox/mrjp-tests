@@ -1,0 +1,16 @@
+// Author: Krzysztof Małysa (2020)
+class X {}
+
+int main() {
+	int i;
+	if (i != 0) error();
+	string s;
+	if (s != "") error();
+	boolean b;
+	if (b) error();
+	int[][] arr;
+	if (arr != null) error();
+	X x;
+	if (x != null) error();
+	return 0;
+}

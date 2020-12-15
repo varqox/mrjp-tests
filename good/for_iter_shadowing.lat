@@ -1,0 +1,20 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	int x = 42;
+	int iter = 0;
+	int[] arr = new int[1];
+	for (int x : arr) {
+		if (x != 0) error();
+		iter++;
+		// int x; // shadowing x is an error here
+		x = x + 2;
+		{
+			int x = x + 3; // shadowing x is OK here
+			if (x != 5) error();
+		}
+	}
+	if (x != 42) error();
+	if (iter != 1) error();
+	if (arr[0] != 0) error();
+	return 0;
+}

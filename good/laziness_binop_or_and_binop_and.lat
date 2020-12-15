@@ -1,0 +1,38 @@
+// Author: Krzysztof Małysa (2020)
+class X {
+    int x;
+
+    boolean btrue(int a) {
+        x = x + a;
+        return true;
+    }
+
+    boolean bfalse(int a) {
+        x = x + a;
+        return false;
+    }
+}
+
+void test_and() {
+    X x;
+    x.btrue(1) && x.btrue(2);
+    x.btrue(4) && x.bfalse(8);
+    x.bfalse(16) && x.btrue(32);
+    x.bfalse(64) && x.bfalse(128);
+    if (x.x != 95) error();
+}
+
+void test_or() {
+    X x;
+    x.btrue(1) || x.btrue(2);
+    x.btrue(4) || x.bfalse(8);
+    x.bfalse(16) || x.btrue(32);
+    x.bfalse(64) || x.bfalse(128);
+    if (x.x != 245) error();
+}
+
+int main() {
+    test_and();
+    test_or();
+    return 0;
+}

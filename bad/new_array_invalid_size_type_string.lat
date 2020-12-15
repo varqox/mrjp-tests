@@ -1,0 +1,5 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	int[] x = new int[""];
+	return 0;
+}

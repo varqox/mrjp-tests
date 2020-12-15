@@ -1,0 +1,7 @@
+ERROR
+[1mbad/assign_binop_aneq_null.lat:5:12: [1;31merror: [0;1mleft side is not assignable[m
+	x == null = null;
+	          [1;32m^[m
+[1mbad/assign_binop_aneq_null.lat:5:2: [1;34mnote: [0;1mleft side starts here[m
+	x == null = null;
+	[1;32m^[m

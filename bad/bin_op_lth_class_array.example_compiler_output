@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_lth_class_array.lat:5:8: [1;31merror: [0;1moperator < is defined only for int values and string values, not `Y` and `int[]`[m
+	new Y < new int[3];
+	      [1;32m^[m

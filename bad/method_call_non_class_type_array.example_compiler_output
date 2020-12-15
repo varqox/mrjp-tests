@@ -1,0 +1,4 @@
+ERROR
+[1mbad/method_call_non_class_type_array.lat:3:14: [1;31merror: [0;1mnon-class type `int[]` has no methods[m
+	(new int[4]).foo();
+	            [1;32m^[m

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_eq_null_string.lat:3:7: [1;31merror: [0;1moperator == cannot compare values of types `null` and `string` because values are not convertible to either of the two types[m
+	null == "";
+	     [1;32m^[m

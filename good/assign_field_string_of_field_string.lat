@@ -1,0 +1,14 @@
+// Author: Krzysztof Małysa (2020)
+class C {
+	string fld;
+}
+class D {
+	C c;
+}
+
+void tester() {
+	(new D).c.fld = "";
+}
+int main() {
+	return 0;
+}

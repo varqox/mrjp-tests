@@ -1,0 +1,4 @@
+ERROR
+[1mbad/field_access_non_class_type_void.lat:5:7: [1;31merror: [0;1mtype `void` has no fields[m
+	foo().size;
+	     [1;32m^[m

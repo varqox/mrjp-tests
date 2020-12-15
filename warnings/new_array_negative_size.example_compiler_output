@@ -1,0 +1,4 @@
+OK
+[1mwarnings/new_array_negative_size.lat:3:20: [1;35mwarning: [0;1mnegative array size: -2[m
+	int[] x = new int[10 % 7 - 5];
+	                  [1;32m^[m

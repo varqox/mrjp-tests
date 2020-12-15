@@ -1,0 +1,10 @@
+OK
+[1mwarnings/var_self_comparison_ne.lat:4:8: [1;35mwarning: [0;1mself comparison is always false[m
+	if (x != x) {}
+	      [1;32m^[m
+[1mwarnings/var_self_comparison_ne.lat:4:14: [1;35mwarning: [0;1mdead code[m
+	if (x != x) {}
+	            [1;32m^[m
+[1mwarnings/var_self_comparison_ne.lat:4:6: [1;34mnote: [0;1mif condition always evaluates to false[m
+	if (x != x) {}
+	    [1;32m^[m

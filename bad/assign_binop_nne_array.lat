@@ -1,0 +1,8 @@
+// Author: Krzysztof Małysa (2020)
+
+void tester() {
+	null != null = new int[3];
+}
+int main() {
+	return 0;
+}

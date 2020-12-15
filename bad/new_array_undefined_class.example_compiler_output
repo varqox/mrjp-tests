@@ -1,0 +1,4 @@
+ERROR
+[1mbad/new_array_undefined_class.lat:3:6: [1;31merror: [0;1mUnknown class: list[m
+	new list[4];
+	    [1;32m^[m

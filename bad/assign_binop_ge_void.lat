@@ -1,0 +1,10 @@
+// Author: Krzysztof Małysa (2020)
+void vfunc() {}
+
+void tester() {
+	int x = 5, y = 3;
+	x >= y = vfunc();
+}
+int main() {
+	return 0;
+}

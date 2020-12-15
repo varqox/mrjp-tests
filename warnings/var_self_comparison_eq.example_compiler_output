@@ -1,0 +1,4 @@
+OK
+[1mwarnings/var_self_comparison_eq.lat:4:8: [1;35mwarning: [0;1mself comparison is always true[m
+	if (x == x) return 0;
+	      [1;32m^[m

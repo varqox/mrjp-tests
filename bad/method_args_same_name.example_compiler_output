@@ -1,0 +1,7 @@
+ERROR
+[1mbad/method_args_same_name.lat:3:18: [1;31merror: [0;1mcannot redefine function argument `x`[m
+	void foo(int x, string x) {}
+	                [1;32m^[m
+[1mbad/method_args_same_name.lat:3:11: [1;34mnote: [0;1mprevious definition is here[m
+	void foo(int x, string x) {}
+	         [1;32m^[m

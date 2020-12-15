@@ -1,0 +1,4 @@
+ERROR
+[1mbad/array_subscript_invalid_subscript_type_string.lat:4:5: [1;31merror: [0;1marray subscript has to be of type `int`, not `string`[m
+	arr[""];
+	   [1;32m^[m

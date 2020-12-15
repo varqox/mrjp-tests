@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_field_string_new_class_void.lat:8:14: [1;31merror: [0;1massigning to `string` from incompatible type `void`[m
+	(new C).fld = vfunc();
+	            [1;32m^[m

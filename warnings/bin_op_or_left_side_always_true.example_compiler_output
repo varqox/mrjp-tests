@@ -1,0 +1,10 @@
+OK
+[1mwarnings/bin_op_or_left_side_always_true.lat:3:10: [1;35mwarning: [0;1mexpression will never be evaluated[m
+	true || (42 / 0 == 2);
+	        [1;32m^[m
+[1mwarnings/bin_op_or_left_side_always_true.lat:3:7: [1;34mnote: [0;1mbecause left side of `||` evaluates to true[m
+	true || (42 / 0 == 2);
+	     [1;32m^[m
+[1mwarnings/bin_op_or_left_side_always_true.lat:3:2: [1;34mnote: [0;1mleft side starts here[m
+	true || (42 / 0 == 2);
+	[1;32m^[m

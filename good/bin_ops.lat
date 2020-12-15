@@ -1,0 +1,263 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	check_constexpr();
+	check_runtime();
+	return 0;
+}
+
+class X {}
+class Y extends X {}
+
+int check_constexpr() {
+	if (4 + 42 != 46) {}
+	else if ("abc" + "abd" != "abcabd") {}
+
+	else if (46 - 4 != 42) {}
+	else if (46 * 4 != 184) {}
+	else if (46 / 4 != 11) {}
+	else if (46 % 4 != 2) {}
+
+	else if (!(42 < 46)) {}
+	else if (46 < 42) {}
+	else if (42 < 42) {}
+
+	else if (!("abc" < "abcd")) {}
+	else if ("abcd" < "abc") {}
+	else if (!("abcabd" < "abcd")) {}
+	else if ("abcd" < "abc") {}
+	else if ("abc" < "abc") {}
+
+	else if (!(42 <= 46)) {}
+	else if (46 <= 42) {}
+	else if (!(42 <= 42)) {}
+
+	else if (!("abc" <= "abcd")) {}
+	else if ("abcd" <= "abc") {}
+	else if (!("abcabd" <= "abcd")) {}
+	else if ("abcd" <= "abc") {}
+	else if (!("abc" <= "abc")) {}
+
+	else if (42 > 46) {}
+	else if (!(46 > 42)) {}
+	else if (42 > 42) {}
+
+	else if ("abc" > "abcd") {}
+	else if (!("abcd" > "abc")) {}
+	else if ("abcabd" > "abcd") {}
+	else if (!("abcd" > "abc")) {}
+	else if ("abc" > "abc") {}
+
+	else if (42 >= 46) {}
+	else if (!(46 >= 42)) {}
+	else if (!(42 >= 42)) {}
+
+	else if ("abc" >= "abcd") {}
+	else if (!("abcd" >= "abc")) {}
+	else if ("abcabd" >= "abcd") {}
+	else if (!("abcd" >= "abc")) {}
+	else if (!("abc" >= "abc")) {}
+
+	else if (!(42 == 42)) {}
+	else if (42 == 46) {}
+	else if (46 == 42) {}
+
+	else if (!("abc" == "abc")) {}
+	else if ("abc" == "abcd") {}
+	else if ("abcd" == "abc") {}
+
+	else if (!(null == null)) {}
+
+	else if (!(true == true)) {}
+	else if (!(false == false)) {}
+	else if (true == false) {}
+	else if (false == true) {}
+
+	else if (!((int[])null == (int[])null)) {}
+
+	else if (!((X)null == (X)null)) {}
+	else if (!((X)null == (Y)null)) {}
+	else if (!((Y)null == (X)null)) {}
+
+	else if (42 != 42) {}
+	else if (!(42 != 46)) {}
+	else if (!(46 != 42)) {}
+
+	else if ("abc" != "abc") {}
+	else if (!("abc" != "abcd")) {}
+	else if (!("abcd" != "abc")) {}
+
+	else if (null != null) {}
+
+	else if (true != true) {}
+	else if (false != false) {}
+	else if (!(true != false)) {}
+	else if (!(false != true)) {}
+
+	else if ((int[])null != (int[])null) {}
+
+	else if ((X)null != (X)null) {}
+	else if ((X)null != (Y)null) {}
+	else if ((Y)null != (X)null) {}
+
+	else if (!(true && true)) {}
+	else if (true && false) {}
+	else if (false && true) {}
+	else if (false && false) {}
+	else if (false && (2 / 0 == 42)) {}
+	else if (btrue() && false) {}
+	else if (false && btrue()) {}
+
+	else if (!(true || true)) {}
+	else if (!(true || false)) {}
+	else if (!(false || true)) {}
+	else if (false || false) {}
+	else if (!(true || (2 / 0 == 42))) {}
+	else if (!(bfalse() || true)) {}
+	else if (!(true || bfalse())) {}
+
+	else return 0;
+}
+
+int i0() { return 0; }
+int i2() { return 2; }
+int i4() { return 4; }
+int i11() { return 11; }
+int i42() { return 42; }
+int i46() { return 46; }
+int i184() { return 184; }
+
+string sabc() { return "abc"; }
+string sabcabd() { return "abcabd"; }
+string sabcd() { return "abcd"; }
+string sabd() { return "abd"; }
+
+boolean btrue() { return true; }
+boolean bfalse() { return false; }
+
+int[] null_int_array() { return null; }
+X null_X() { return null; }
+Y null_Y() { return null; }
+
+void check_runtime() {
+	int[] iarr = new int[4];
+	int[] iarr_copy = iarr;
+	X xx = new X, xx_copy = xx;
+	Y yy = new Y;
+	X xy = yy, xy_copy = xy;
+
+	if (i4() + i42() != i46()) error();
+	if (sabc() + sabd() != sabcabd()) error();
+
+	if (i46() - i4() != i42()) error();
+	if (i46() * i4() != i184()) error();
+	if (i46() / i4() != i11()) error();
+	if (i46() % i4() != i2()) error();
+
+	if (!(i42() < i46())) error();
+	if (i46() < i42()) error();
+	if (i42() < i42()) error();
+
+	if (!(sabc() < sabcd())) error();
+	if (sabcd() < sabc()) error();
+	if (!(sabcabd() < sabcd())) error();
+	if (sabcd() < sabc()) error();
+	if (sabc() < sabc()) error();
+
+	if (!(i42() <= i46())) error();
+	if (i46() <= i42()) error();
+	if (!(i42() <= i42())) error();
+
+	if (!(sabc() <= sabcd())) error();
+	if (sabcd() <= sabc()) error();
+	if (!(sabcabd() <= sabcd())) error();
+	if (sabcd() <= sabc()) error();
+	if (!(sabc() <= sabc())) error();
+
+	if (i42() > i46()) error();
+	if (!(i46() > i42())) error();
+	if (i42() > i42()) error();
+
+	if (sabc() > sabcd()) error();
+	if (!(sabcd() > sabc())) error();
+	if (sabcabd() > sabcd()) error();
+	if (!(sabcd() > sabc())) error();
+	if (sabc() > sabc()) error();
+
+	if (i42() >= i46()) error();
+	if (!(i46() >= i42())) error();
+	if (!(i42() >= i42())) error();
+
+	if (sabc() >= sabcd()) error();
+	if (!(sabcd() >= sabc())) error();
+	if (sabcabd() >= sabcd()) error();
+	if (!(sabcd() >= sabc())) error();
+	if (!(sabc() >= sabc())) error();
+
+	if (!(i42() == i42())) error();
+	if (i42() == i46()) error();
+	if (i46() == i42()) error();
+
+	if (!(sabc() == sabc())) error();
+	if (sabc() == sabcd()) error();
+	if (sabcd() == sabc()) error();
+
+	if (!(btrue() == btrue())) error();
+	if (!(bfalse() == bfalse())) error();
+	if (btrue() == bfalse()) error();
+	if (bfalse() == btrue()) error();
+
+	if (!(null_int_array() == null_int_array())) error();
+	if (new int[4] == new int[4]) error();
+	if (!(iarr == iarr_copy)) error();
+
+	if (!(null_X() == null_X())) error();
+	if (!(null_X() == null_Y())) error();
+	if (!(null_Y() == null_X())) error();
+	if (!(xx == xx_copy)) error();
+	if (xx == yy) error();
+	if (yy == xx) error();
+	if (xx == xy) error();
+	if (!(yy == xy)) error();
+	if (!(xy == yy)) error();
+	if (!(xy == xy_copy)) error();
+
+	if (i42() != i42()) error();
+	if (!(i42() != i46())) error();
+	if (!(i46() != i42())) error();
+
+	if (sabc() != sabc()) error();
+	if (!(sabc() != sabcd())) error();
+	if (!(sabcd() != sabc())) error();
+
+	if (btrue() != btrue()) error();
+	if (bfalse() != bfalse()) error();
+	if (!(btrue() != bfalse())) error();
+	if (!(bfalse() != btrue())) error();
+
+	if (null_int_array() != null_int_array()) error();
+	if (!(new int[4] != new int[4])) error();
+	if (iarr != iarr_copy) error();
+
+	if (null_X() != null_X()) error();
+	if (null_X() != null_Y()) error();
+	if (null_Y() != null_X()) error();
+	if (xx != xx_copy) error();
+	if (!(xx != yy)) error();
+	if (!(yy != xx)) error();
+	if (!(xx != xy)) error();
+	if (yy != xy) error();
+	if (xy != yy) error();
+	if (xy != xy_copy) error();
+
+	if (!(btrue() && btrue())) error();
+	if (btrue() && bfalse()) error();
+	if (bfalse() && btrue()) error();
+	if (bfalse() && bfalse()) error();
+	if (bfalse() && (i2() / i0() == i42())) error();
+
+	if (!(btrue() || btrue())) error();
+	if (!(btrue() || bfalse())) error();
+	if (!(bfalse() || btrue())) error();
+	if (bfalse() || bfalse()) error();
+	if (!(btrue() || (i2() / i0() == i42()))) error();
+}

@@ -1,0 +1,8 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	while (readString() == "x") {
+		printInt(142);
+		return 0;
+	}
+	return 0;
+}

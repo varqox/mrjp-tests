@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_var_array_class.lat:7:4: [1;31merror: [0;1massigning to `int[]` from incompatible type `Y`[m
+	x = new Y;
+	  [1;32m^[m

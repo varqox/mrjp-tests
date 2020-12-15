@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_or_bool_null.lat:3:7: [1;31merror: [0;1moperator || is defined only for `boolean` values, not `boolean` and `null`[m
+	true || null;
+	     [1;32m^[m

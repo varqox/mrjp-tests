@@ -1,0 +1,92 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	return 0;
+}
+
+void test_simple_no_return() {
+	;;;;;;;;;;;
+	42;
+}
+
+void test_simple_void_return() {
+	;;;;;;;;;;;
+	return;
+}
+
+string test_simple_return() {
+	;;;;;;;;;;;
+	return "ho ho ho";
+}
+
+int test_while_true() {
+	while (true) {}
+}
+
+int test_error() {
+	error();
+}
+
+int test_if_else() {
+	if (readInt() == 0)
+		return 42;
+	else
+		return 128;
+}
+
+int test_if_true() {
+	if (44 == 42 + 2) {
+		return 0;
+	}
+}
+
+int test_if_true_else() {
+	if (44 == 42 + 2) {
+		return 0;
+	} else {}
+}
+
+int test_if_false() {
+	if (false) {}
+	else return 0;
+}
+
+int test_if_else_nested() {
+	if (readInt() == 0) {
+		if (readInt() == 42) {
+			if (readInt() < 0) {
+				while (true) {}
+			} else if (readString() == "") {
+				if (readString() == "bla bla bla")
+					while(true) {}
+				else {
+					return 8;
+				}
+			} else {
+				if (readInt() * 2 == 8) {
+					if (readInt() == 0)
+						return 42;
+					else
+						return 128;
+				} else {
+					error();
+				}
+			}
+		} else {
+			if (readInt() == -8) {
+				error();
+			} else {
+				while(true) {}
+			}
+		}
+	} else if (readInt() == 142) {
+		if (readInt() > 0)
+			error();
+		else {
+			if (readInt() < 0) {
+				return 142;
+			} else
+				while (true) {}
+		}
+	} else
+		error();
+}

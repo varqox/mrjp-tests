@@ -1,0 +1,9 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	foo("bla lab abl");
+	return 0;
+}
+
+void foo(string s) {
+	printString(s);
+}

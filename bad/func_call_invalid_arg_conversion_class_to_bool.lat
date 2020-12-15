@@ -1,0 +1,9 @@
+// Author: Krzysztof Małysa (2020)
+class X {}
+
+int main() {
+	foo(new X);
+	return 0;
+}
+
+void foo(boolean b) {}

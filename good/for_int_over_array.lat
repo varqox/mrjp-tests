@@ -1,0 +1,12 @@
+// Author: Krzysztof Małysa (2020)
+void test() {
+	int y;
+	for (int x : new int[3]) {
+		y++;
+	}
+	if (y != 3) error();
+}
+int main() {
+	test();
+	return 0;
+}

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/return_string_in_func_returning_int.lat:2:22: [1;31merror: [0;1mreturned value of type `string` is not convertible to return type `int`[m
+int test() { return ""; }
+                     [1;32m^[m

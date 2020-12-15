@@ -1,0 +1,13 @@
+// Author: Krzysztof Małysa (2020)
+class X {}
+class Y extends X {}
+
+int main() {
+	int[] a = new int[0];
+	string[] b = new string[1];
+	boolean[] c = new boolean[2];
+	int[][] d = new int[][3];
+	X[] e = new X[4];
+	Y[][] f = new Y[][5];
+	return 0;
+}

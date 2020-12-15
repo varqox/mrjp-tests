@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_var_string_int.lat:5:4: [1;31merror: [0;1massigning to `string` from incompatible type `int`[m
+	x = 42;
+	  [1;32m^[m

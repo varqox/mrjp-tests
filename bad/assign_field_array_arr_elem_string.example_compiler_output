@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_field_array_arr_elem_string.lat:7:20: [1;31merror: [0;1massigning to `int[]` from incompatible type `string`[m
+	(new C[1])[2].fld = "";
+	                  [1;32m^[m

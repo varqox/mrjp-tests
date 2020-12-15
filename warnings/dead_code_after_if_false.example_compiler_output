@@ -1,0 +1,16 @@
+OK
+[1mwarnings/dead_code_after_if_false.lat:7:19: [1;35mwarning: [0;1mdead code[m
+	if (44 != 42 + 2);
+	                 [1;32m^[m
+[1mwarnings/dead_code_after_if_false.lat:7:6: [1;34mnote: [0;1mif condition always evaluates to false[m
+	if (44 != 42 + 2);
+	    [1;32m^[m
+[1mwarnings/dead_code_after_if_false.lat:9:2: [1;35mwarning: [0;1mthis code will never be executed[m
+	readInt();
+	[1;32m^[m
+[1mwarnings/dead_code_after_if_false.lat:10:2: [1;35mwarning: [0;1mthis code will never be executed[m
+	printString("bla bla bla");
+	[1;32m^[m
+[1mwarnings/dead_code_after_if_false.lat:11:2: [1;35mwarning: [0;1mthis code will never be executed[m
+	return 42;
+	[1;32m^[m

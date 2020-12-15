@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_field_string_mcall_bool.lat:10:20: [1;31merror: [0;1massigning to `string` from incompatible type `boolean`[m
+	(new M).foo().fld = true;
+	                  [1;32m^[m

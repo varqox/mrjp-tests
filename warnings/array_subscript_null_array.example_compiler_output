@@ -1,0 +1,4 @@
+OK
+[1mwarnings/array_subscript_null_array.lat:3:13: [1;35mwarning: [0;1msubscripting a null array[m
+	(int[])null[0];
+	           [1;32m^[m

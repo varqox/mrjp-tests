@@ -1,0 +1,4 @@
+ERROR
+[1mbad/incr_field_bool_arr_elem.lat:7:19: [1;31merror: [0;1m++ operator is valid only for integer values not `boolean`[m
+	(new C[1])[2].fld++;
+	                 [1;32m^[m

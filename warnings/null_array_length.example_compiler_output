@@ -1,0 +1,7 @@
+OK
+[1mwarnings/null_array_length.lat:3:15: [1;35mwarning: [0;1maccessing field of a null object[m
+	((int[])null).length;
+	             [1;32m^[m
+[1mwarnings/null_array_length.lat:3:2: [1;34mnote: [0;1mexpression evaluates to null reference of type `int[]`[m
+	((int[])null).length;
+	[1;32m^[m

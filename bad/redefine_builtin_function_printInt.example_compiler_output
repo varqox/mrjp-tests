@@ -1,0 +1,4 @@
+ERROR
+[1mbad/redefine_builtin_function_printInt.lat:2:1: [1;31merror: [0;1mcannot define function having the same name as the predefined function `printInt`[m
+void printInt(int x) {}
+[1;32m^[m

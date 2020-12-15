@@ -1,0 +1,4 @@
+ERROR
+[1mbad/int_literal_overflow_01.lat:3:2: [1;31merror: [0;1minteger overflow while parsing the string literal 2147483648[m
+	2147483648;
+	[1;32m^[m

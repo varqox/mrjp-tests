@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_and_class_string.lat:5:8: [1;31merror: [0;1moperator && is defined only for `boolean` values, not `Y` and `string`[m
+	new Y && "";
+	      [1;32m^[m

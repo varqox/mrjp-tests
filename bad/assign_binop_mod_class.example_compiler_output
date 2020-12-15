@@ -1,0 +1,7 @@
+ERROR
+[1mbad/assign_binop_mod_class.lat:7:8: [1;31merror: [0;1mleft side is not assignable[m
+	x % y = new Y;
+	      [1;32m^[m
+[1mbad/assign_binop_mod_class.lat:7:2: [1;34mnote: [0;1mleft side starts here[m
+	x % y = new Y;
+	[1;32m^[m

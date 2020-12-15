@@ -1,0 +1,4 @@
+ERROR
+[1mbad/invalid_cast_type_expression_instead_of_type.lat:3:6: [1;31merror: [0;1minvalid expression: expected class or array type as the cast type[m
+    (2 + 5)null == null;
+     [1;32m^[m

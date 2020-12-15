@@ -1,0 +1,4 @@
+ERROR
+[1mbad/array_subscript_invalid_type_class.lat:6:3: [1;31merror: [0;1mvalue of non-array type `X` has no subscript operator[m
+	x[42];
+	 [1;32m^[m

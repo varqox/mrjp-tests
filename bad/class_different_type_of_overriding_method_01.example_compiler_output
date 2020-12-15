@@ -1,0 +1,7 @@
+ERROR
+[1mbad/class_different_type_of_overriding_method_01.lat:7:5: [1;31merror: [0;1moverriding method type mismatch: overridden method `foo` has type `int (string, boolean)`, overriding method has type `void (string, boolean)`[m
+    void foo(string x, boolean y) {}
+    [1;32m^[m
+[1mbad/class_different_type_of_overriding_method_01.lat:3:5: [1;34mnote: [0;1moverridden method's definition is here[m
+    int foo(string x, boolean y) {}
+    [1;32m^[m

@@ -1,0 +1,5 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	if (readString() == "test") return 0;
+	else {}
+}

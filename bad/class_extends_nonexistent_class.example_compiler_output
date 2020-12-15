@@ -1,0 +1,4 @@
+ERROR
+[1mbad/class_extends_nonexistent_class.lat:2:1: [1;31merror: [0;1mbase class `B` does not exist[m
+class A extends B {}
+[1;32m^[m

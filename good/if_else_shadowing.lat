@@ -1,0 +1,27 @@
+// Author: Krzysztof Małysa (2020)
+int foo(int x) {
+	if (x != 44) error();
+	return 0;
+}
+int bar(int x) {
+	if (x != 40) error();
+	return 0;
+}
+
+int main() {
+	int x = 42;
+	if (x > 0)
+		int x = x + 2, y = foo(x);
+	else
+		int x = x - 2, y = bar(x);
+	if (x != 42) error();
+	if (x > 10) {
+		int x = x + 2;
+		foo(x);
+	} else {
+		int x = x - 2;
+		bar(x);
+	}
+	if (x != 42) error();
+	return 0;
+}

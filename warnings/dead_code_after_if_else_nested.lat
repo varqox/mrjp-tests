@@ -1,0 +1,41 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	return 0;
+}
+
+int test_if_else_nested() {
+	if (readInt() == 0) {
+		if (readInt() == 42) {
+			if (readInt() < 0) {
+				while (true) {}
+			} else if (readString() == "") {
+				if (readString() == "bla bla bla")
+					while(true) {}
+				else {
+					return 8;
+				}
+			} else {
+				error();
+			}
+		} else {
+			if (readInt() == -8) {
+				error();
+			} else {
+				while(true) {}
+			}
+		}
+	} else if (readInt() == 142) {
+		if (readInt() > 0)
+			error();
+		else {
+			if (readInt() < 0) {
+				return 142;
+			} else
+				while (true) {}
+		}
+	} else
+		error();
+	readInt();
+	printString("bla bla bla");
+	return 42;
+}

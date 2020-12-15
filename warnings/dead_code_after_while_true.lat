@@ -1,0 +1,11 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	return 0;
+}
+
+int test_while_true() {
+	while (true) {}
+	readInt();
+	printString("bla bla bla");
+	return 42;
+}

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/invalid_cast_type_void.lat:3:10: [1;31merror: [0;1msyntax error at )[m
+    (void)null == null;
+         [1;32m^[m

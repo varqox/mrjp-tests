@@ -1,0 +1,4 @@
+ERROR
+[1mbad/mul_invalid_types_class_bool.lat:6:4: [1;31merror: [0;1mmultiplication is defined only for int values, not `X` and `boolean`[m
+	x * false;
+	  [1;32m^[m

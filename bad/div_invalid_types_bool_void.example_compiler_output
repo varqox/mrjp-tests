@@ -1,0 +1,4 @@
+ERROR
+[1mbad/div_invalid_types_bool_void.lat:5:8: [1;31merror: [0;1mdivision is defined only for int values, not `boolean` and `void`[m
+	false / foo();
+	      [1;32m^[m

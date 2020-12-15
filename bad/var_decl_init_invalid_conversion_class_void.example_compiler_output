@@ -1,0 +1,4 @@
+ERROR
+[1mbad/var_decl_init_invalid_conversion_class_void.lat:6:6: [1;31merror: [0;1mincompatible types: cannot assign variable of type `Y` with an expression of type `void`[m
+	Y x = foo();
+	    [1;32m^[m

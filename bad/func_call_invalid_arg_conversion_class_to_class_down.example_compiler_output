@@ -1,0 +1,7 @@
+ERROR
+[1mbad/func_call_invalid_arg_conversion_class_to_class_down.lat:6:6: [1;31merror: [0;1mvalue of type `X` is not convertible to type `Y`[m
+	foo(new X);
+	    [1;32m^[m
+[1mbad/func_call_invalid_arg_conversion_class_to_class_down.lat:10:1: [1;34mnote: [0;1m`foo` declared here[m
+void foo(Y a) {}
+[1;32m^[m

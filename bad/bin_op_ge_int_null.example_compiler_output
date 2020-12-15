@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_ge_int_null.lat:3:5: [1;31merror: [0;1moperator >= is defined only for int values and string values, not `int` and `null`[m
+	42 >= null;
+	   [1;32m^[m

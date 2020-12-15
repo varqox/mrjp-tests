@@ -1,0 +1,7 @@
+// Author: Krzysztof Małysa (2020)
+class X {}
+
+int main() {
+	(new X).bar;
+	return 0;
+}

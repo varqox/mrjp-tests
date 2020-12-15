@@ -1,0 +1,4 @@
+ERROR
+[1mbad/array_subscript_invalid_type_string.lat:3:7: [1;31merror: [0;1mvalue of non-array type `string` has no subscript operator[m
+	"abc"[42];
+	     [1;32m^[m

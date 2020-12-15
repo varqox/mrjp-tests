@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_eq_int_bool.lat:3:5: [1;31merror: [0;1moperator == cannot compare values of types `int` and `boolean` because values are not convertible to either of the two types[m
+	42 == true;
+	   [1;32m^[m

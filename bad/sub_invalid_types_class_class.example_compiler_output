@@ -1,0 +1,4 @@
+ERROR
+[1mbad/sub_invalid_types_class_class.lat:6:4: [1;31merror: [0;1msubtraction is defined only for int values, not `X` and `X`[m
+	x - x;
+	  [1;32m^[m

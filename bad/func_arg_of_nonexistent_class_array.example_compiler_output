@@ -1,0 +1,4 @@
+ERROR
+[1mbad/func_arg_of_nonexistent_class_array.lat:2:10: [1;31merror: [0;1mUnknown class: list[m
+void foo(list[] x) {}
+         [1;32m^[m

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/void_arr_return_type.lat:2:1: [1;31merror: [0;1mfunction does not return a value in all control paths[m
+void[] foo() {}
+[1;32m^[m

@@ -1,0 +1,8 @@
+// Author: Krzysztof Małysa (2020)
+class Y extends X {}
+class X {}
+class Z extends X {}
+int main() {
+	new Z == new Y;
+	return 0;
+}

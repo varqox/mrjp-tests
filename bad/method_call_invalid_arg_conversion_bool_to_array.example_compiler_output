@@ -1,0 +1,7 @@
+ERROR
+[1mbad/method_call_invalid_arg_conversion_bool_to_array.lat:3:14: [1;31merror: [0;1mvalue of type `boolean` is not convertible to type `int[]`[m
+	(new G).foo(true);
+	            [1;32m^[m
+[1mbad/method_call_invalid_arg_conversion_bool_to_array.lat:8:2: [1;34mnote: [0;1m`foo` declared here[m
+	void foo(int[] a) {}
+	[1;32m^[m

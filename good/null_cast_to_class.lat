@@ -1,0 +1,8 @@
+// Author: Krzysztof Małysa (2020)
+class list {
+}
+
+int main() {
+    (list)null == null;
+    return 0;
+}

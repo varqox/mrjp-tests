@@ -1,0 +1,4 @@
+ERROR
+[1mbad/add_int_overflow.lat:3:13: [1;31merror: [0;1minteger overflow in expression 1073741823 + 1073741825[m
+	1073741823 + 1073741825;
+	           [1;32m^[m

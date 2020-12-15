@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_field_class_fcall_void.lat:11:12: [1;31merror: [0;1massigning to `Y` from incompatible type `void`[m
+	foo().fld = vfunc();
+	          [1;32m^[m

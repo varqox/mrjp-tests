@@ -1,0 +1,4 @@
+OK
+[1mwarnings/for_runs_at_most_once_because_while_true.lat:3:2: [1;35mwarning: [0;1mfor will execute at most once, because its body always stops execution[m
+	for (int x : new int[readInt()]) {
+	[1;32m^[m

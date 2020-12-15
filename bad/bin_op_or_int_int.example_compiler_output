@@ -1,0 +1,4 @@
+ERROR
+[1mbad/bin_op_or_int_int.lat:3:5: [1;31merror: [0;1moperator || is defined only for `boolean` values, not `int` and `int`[m
+	42 || 42;
+	   [1;32m^[m

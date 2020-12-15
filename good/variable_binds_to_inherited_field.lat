@@ -1,0 +1,14 @@
+// Author: Krzysztof Małysa (2020)
+class A extends B {
+	void foo() {
+		int y = x;
+	}
+}
+
+class B {
+	int x;
+}
+
+int main() {
+	return 42;
+}

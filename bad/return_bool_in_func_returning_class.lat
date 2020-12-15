@@ -1,0 +1,7 @@
+// Author: Krzysztof Małysa (2020)
+class Y extends X {}
+class X {}
+Y test() { return true; }
+int main() {
+	return 0;
+}

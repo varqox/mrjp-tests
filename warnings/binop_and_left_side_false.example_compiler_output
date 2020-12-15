@@ -1,0 +1,10 @@
+OK
+[1mwarnings/binop_and_left_side_false.lat:5:11: [1;35mwarning: [0;1mexpression will never be evaluated[m
+	false && btrue();
+	         [1;32m^[m
+[1mwarnings/binop_and_left_side_false.lat:5:8: [1;34mnote: [0;1mbecause left side of `&&` evaluates to false[m
+	false && btrue();
+	      [1;32m^[m
+[1mwarnings/binop_and_left_side_false.lat:5:2: [1;34mnote: [0;1mleft side starts here[m
+	false && btrue();
+	[1;32m^[m

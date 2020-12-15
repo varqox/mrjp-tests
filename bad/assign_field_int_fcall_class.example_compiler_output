@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_field_int_fcall_class.lat:10:12: [1;31merror: [0;1massigning to `int` from incompatible type `Y`[m
+	foo().fld = new Y;
+	          [1;32m^[m

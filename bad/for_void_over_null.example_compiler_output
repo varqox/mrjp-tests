@@ -1,0 +1,4 @@
+ERROR
+[1mbad/for_void_over_null.lat:4:7: [1;31merror: [0;1mfor iterator `x` cannot have type `void`[m
+	for (void x : null) {}
+	     [1;32m^[m

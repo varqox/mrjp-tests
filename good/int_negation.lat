@@ -1,0 +1,7 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	int x = 142, y = 38;
+	if (-x != -142) error();
+	if (-y != 38) error();
+	return 0;
+}

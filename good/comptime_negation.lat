@@ -1,0 +1,6 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	if (false) {}
+	else if (-42 != -(7 * 6)) {}
+	else return 0;
+}

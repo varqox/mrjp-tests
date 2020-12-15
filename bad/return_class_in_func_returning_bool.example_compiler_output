@@ -1,0 +1,4 @@
+ERROR
+[1mbad/return_class_in_func_returning_bool.lat:4:25: [1;31merror: [0;1mreturned value of type `Y` is not convertible to return type `boolean`[m
+boolean test() { return new Y; }
+                        [1;32m^[m

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/while_cond_string.lat:3:9: [1;31merror: [0;1mwhile condition has to be of type `boolean`, not `string`[m
+	while("") {}
+	       [1;32m^[m

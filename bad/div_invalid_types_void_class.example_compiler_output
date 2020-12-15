@@ -1,0 +1,4 @@
+ERROR
+[1mbad/div_invalid_types_void_class.lat:8:8: [1;31merror: [0;1mdivision is defined only for int values, not `void` and `X`[m
+	foo() / x;
+	      [1;32m^[m

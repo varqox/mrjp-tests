@@ -1,0 +1,10 @@
+// Author: Krzysztof Małysa (2020)
+
+class TEST {
+void tester() {
+	self = true;
+}
+}
+int main() {
+	return 0;
+}

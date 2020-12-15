@@ -1,0 +1,5 @@
+// Author: Krzysztof Małysa (2020)
+int main() {
+	((X)null).some_field;
+	return 0;
+}

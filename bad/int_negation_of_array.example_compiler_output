@@ -1,0 +1,4 @@
+ERROR
+[1mbad/int_negation_of_array.lat:4:2: [1;31merror: [0;1mcannot negate value of non-integer type `int[]`[m
+	-x;
+	[1;32m^[m

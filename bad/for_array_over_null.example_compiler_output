@@ -1,0 +1,4 @@
+ERROR
+[1mbad/for_array_over_null.lat:3:17: [1;31merror: [0;1mfor cannot iterate over value of non-array type `null`[m
+	for (int[] x : null) {}
+	               [1;32m^[m

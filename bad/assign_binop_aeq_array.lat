@@ -1,0 +1,10 @@
+// Author: Krzysztof Małysa (2020)
+
+void tester() {
+	int[] x, y;
+	x = new int[3]; y = new int[2];
+	x == y = new int[3];
+}
+int main() {
+	return 0;
+}

@@ -1,0 +1,4 @@
+ERROR
+[1mbad/self_outside_class.lat:3:2: [1;31merror: [0;1mself is invalid outside a class[m
+	self;
+	[1;32m^[m

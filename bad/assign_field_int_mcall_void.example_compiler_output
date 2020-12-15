@@ -1,0 +1,4 @@
+ERROR
+[1mbad/assign_field_int_mcall_void.lat:11:20: [1;31merror: [0;1massigning to `int` from incompatible type `void`[m
+	(new M).foo().fld = vfunc();
+	                  [1;32m^[m

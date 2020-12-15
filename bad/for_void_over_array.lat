@@ -1,0 +1,8 @@
+// Author: Krzysztof Małysa (2020)
+void vfunc() {}
+void test() {
+	for (void x : new int[3]) {}
+}
+int main() {
+	return 0;
+}
