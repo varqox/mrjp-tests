@@ -104,7 +104,7 @@ int check_constexpr() {
 	else if (false && true) {}
 	else if (false && false) {}
 	else if (false && (2 / 0 == 42)) {}
-	else if (btrue() && false) {}
+	// else if (btrue() && false) {} // it is OK not to detect this if's condition value at compile time, because left side of ... && false may have side effects, nontheless a warning would be appreciated
 	else if (false && btrue()) {}
 
 	else if (!(true || true)) {}
@@ -112,7 +112,7 @@ int check_constexpr() {
 	else if (!(false || true)) {}
 	else if (false || false) {}
 	else if (!(true || (2 / 0 == 42))) {}
-	else if (!(bfalse() || true)) {}
+	// else if (!(bfalse() || true)) {} // it is OK not to detect this if's condition value at compile time, because left side of ... || true may have side effects, nontheless a warning would be appreciated
 	else if (!(true || bfalse())) {}
 
 	else return 0;
