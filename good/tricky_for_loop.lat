@@ -1,0 +1,11 @@
+int main() {
+	string[] arr = new string[3];
+	arr[0] = "aaa";
+	arr[1] = "bbb";
+	arr[2] = "ccc";
+	for (string s : arr) {
+		arr = null;
+		printString(s);
+	}
+	return 0;
+}

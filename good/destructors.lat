@@ -1,0 +1,951 @@
+class XX {
+	int i;
+	string a;
+	string bb;
+	int j;
+
+	XX make_self() {
+		XX x = self;
+		return x;
+	}
+}
+
+class YY extends XX {
+	string o, x;
+}
+
+void test() {
+	int x'iaaq'a = 42;
+	string foo, bar = "bla bla bla";
+	XX x, y = null, z = (XX)null;
+	XX xx = new XX;
+	YY yy = new YY;
+	YY[] ayy = new YY[42];
+	YY[] byy = new YY[42];
+	((YY[])null)[42];
+	((XX)null).i;
+
+	((YY[])null)[27] = null;
+	((XX)null).i = 188;
+
+	xx.a = "ho ho ho";
+
+	x'iaaq'a = 77;
+	x = new XX;
+
+	x.j = (new int[888]).length;
+
+	(new XX).i = x.j;
+
+	(new YY).i = (new int[33]).length;
+
+	int o = 0;
+
+	string str = xx.a;
+	"bla bla bla";
+	new XX;
+	(new XX[555]).length;
+}
+
+void xx() {
+	YY[] yy = new YY[108];
+	yy[1].a = yy[13].bb;
+
+	yy[10].i++;
+	yy[10].j--;
+}
+
+void yy() {
+	(new int[123])[32]++;
+	(new YY[321])[44] = new YY;
+}
+
+void t2() {
+	YY yy = new YY;
+	string s = yy.a;
+	string s2 = (new YY).bb;
+}
+
+class Z1 {
+	YY y;
+	YY get_y1() {
+		YY yy = y;
+		return yy;
+	}
+
+	YY get_y2() {
+		return y;
+	}
+
+	YY get_y3() {
+		YY yy = self.y;
+		return yy;
+	}
+
+	YY get_y4() {
+		return self.y;
+	}
+}
+
+void check_def_uninit() {
+	int a, b;
+	string c, d;
+	boolean e, f;
+	YY g, h, i;
+	YY[] j, k, l;
+}
+
+void check_def_init() {
+	int a = 1, b = 2;
+	string c = "abc", d = "";
+	boolean e = false, f = true;
+	YY g = null, h = (YY)null, i = new YY;
+	YY[] j = null, k = (YY[])null, l = new YY[42];
+	string s = "x", ss = s;
+	s = "";
+	if (ss != "x") error();
+}
+
+void check_int_neg() {
+	int a = -1, b = -a;
+	int c = (new YY[4]).length;
+	int d = 42 * 8;
+}
+
+class A {
+	int i;
+	boolean b;
+	string s;
+	A[] a;
+	A c;
+}
+
+class B extends A {
+	int bb;
+}
+
+void check_bool_not() {
+	A a = new A;
+	a.b = !a.b;
+	a.b = !!a.b;
+	a.b = !!!a.b;
+	a.i = 4;
+	a.b = !(a.b || !a.b);
+	// a.b = !(a.b && a.i == 4);
+	a.b = !(false || true);
+
+	a.b = !((new A).b || true);
+	a.b = !((new A).b || false);
+	a.b = !(true || (new A).b);
+	a.b = !(false || (new A).b);
+	a.b = !((new A).b || (new A).b);
+
+	a.b = !(false && true);
+	a.b = !((new A).b && false);
+	a.b = !((new A).b && true);
+	a.b = !(false && (new A).b);
+	a.b = !(true && (new A).b);
+	a.b = !((new A).b && (new A).b);
+}
+
+void check_bool_bin_ops() {
+	A a = new A;
+	a.b = a.b || !a.b;
+	// a.b = a.b && a.i == 4;
+	a.b = false || true;
+
+	a.b = (new A).b || true;
+	a.b = (new A).b || false;
+	a.b = true || (new A).b;
+	a.b = false || (new A).b;
+	a.b = (new A).b || (new A).b;
+
+	a.b = false && true;
+	a.b = (new A).b && true;
+	a.b = (new A).b && false;
+	a.b = false && (new A).b;
+	a.b = true && (new A).b;
+	a.b = (new A).b && (new A).b;
+}
+
+void check_add_int() {
+	int a = 42, b = 8;
+	int c = a + b;
+	c = c + c;
+	c = (new int[46]).length + b;
+	c = a + (new int[86]).length;
+	c = (new int[182]).length + (new int[a]).length;
+	c = 6521 + 517;
+}
+
+void check_add_str() {
+	string a = "abc", b = "xyz", c;
+	c = a + b;
+	c = c + c;
+	c = "hoho" + b;
+	c = a + "hoho";
+	c = (new A).s + (new A).s;
+	c = "bla" + "alb";
+}
+
+void check_sub_int() {
+	int a = 42, b = 8;
+	int c = a - b;
+	c = c - c;
+	c = (new int[46]).length - b;
+	c = a - (new int[86]).length;
+	c = (new int[182]).length - (new int[a]).length;
+	c = 6521 - 517;
+}
+
+void check_mul_int() {
+	int a = 42, b = 8;
+	int c = a * b;
+	c = c * c;
+	c = (new int[46]).length * b;
+	c = a * (new int[86]).length;
+	c = (new int[182]).length * (new int[a]).length;
+	c = 6521 * 517;
+}
+
+void check_div_int() {
+	int a = 42, b = 8;
+	int c = a / b;
+	c = c / c;
+	c = (new int[46]).length / b;
+	c = a / (new int[86]).length;
+	c = (new int[182]).length / (new int[a]).length;
+	c = 6521 / 517;
+}
+
+void check_mod_int() {
+	int a = 42, b = 8;
+	int c = a % b;
+	c = c % c;
+	c = (new int[46]).length % b;
+	c = a % (new int[86]).length;
+	c = (new int[182]).length % (new int[a]).length;
+	c = 6521 % 517;
+}
+
+void check_lth_int() {
+	int a = 42, b = 8;
+	boolean c = a < b;
+	c = !(a < b);
+	c = a < a;
+	c = (new int[46]).length < b;
+	c = a < (new int[86]).length;
+	c = (new int[182]).length < (new int[a]).length;
+	c = 6521 < 517;
+}
+
+void check_lth_str() {
+	string a = "abc", b = "xyz";
+	boolean c = a < b;
+	c = !(a < b);
+	c = a < a;
+	c = "hoho" < b;
+	c = a < "hoho";
+	c = (new A).s < (new A).s;
+	c = "bla" < "alb";
+}
+
+void check_le_int() {
+	int a = 42, b = 8;
+	boolean c = a <= b;
+	c = !(a <= b);
+	c = a <= a;
+	c = (new int[46]).length <= b;
+	c = a <= (new int[86]).length;
+	c = (new int[182]).length <= (new int[a]).length;
+	c = 6521 <= 517;
+}
+
+void check_le_str() {
+	string a = "abc", b = "xyz";
+	boolean c = a <= b;
+	c = !(a <= b);
+	c = a <= a;
+	c = "hoho" <= b;
+	c = a <= "hoho";
+	c = (new A).s <= (new A).s;
+	c = "bla" <= "alb";
+}
+
+void check_gth_int() {
+	int a = 42, b = 8;
+	boolean c = a > b;
+	c = !(a > b);
+	c = a > a;
+	c = (new int[46]).length > b;
+	c = a > (new int[86]).length;
+	c = (new int[182]).length > (new int[a]).length;
+	c = 6521 > 517;
+}
+
+void check_gth_str() {
+	string a = "abc", b = "xyz";
+	boolean c = a > b;
+	c = !(a > b);
+	c = a > a;
+	c = "hoho" > b;
+	c = a > "hoho";
+	c = (new A).s > (new A).s;
+	c = "bla" > "alb";
+}
+
+void check_ge_int() {
+	int a = 42, b = 8;
+	boolean c = a >= b;
+	c = !(a >= b);
+	c = a >= a;
+	c = (new int[46]).length >= b;
+	c = a >= (new int[86]).length;
+	c = (new int[182]).length >= (new int[a]).length;
+	c = 6521 >= 517;
+}
+
+void check_ge_str() {
+	string a = "abc", b = "xyz";
+	boolean c = a >= b;
+	c = !(a >= b);
+	c = a >= a;
+	c = "hoho" >= b;
+	c = a >= "hoho";
+	c = (new A).s >= (new A).s;
+	c = "bla" >= "alb";
+}
+
+void check_eq_int() {
+	int a = 42, b = 8;
+	boolean c = a == b;
+	c = !(a == b);
+	c = a == a;
+	c = (new int[46]).length == b;
+	c = a == (new int[86]).length;
+	c = (new int[182]).length == (new int[a]).length;
+	c = 6521 == 517;
+}
+
+void check_eq_str() {
+	string a = "abc", b = "xyz";
+	boolean c = a == b;
+	c = !(a == b);
+	c = a == a;
+	c = "hoho" == b;
+	c = a == "hoho";
+	c = (new A).s == (new A).s;
+	c = "bla" == "alb";
+}
+
+void check_eq_bool() {
+	boolean a = true, b = false;
+	boolean c = a == b;
+	c = !(a == b);
+	c = a == a;
+	c = (new A).b == b;
+	c = a == (new A).b;
+	c = (new A).b == (new A).b;
+	c = true == false;
+}
+
+void check_eq_null() {
+	boolean c = null == null;
+	c = !(null == null);
+}
+
+void check_eq_arr() {
+	A[] a = new A[142], b = new A[312];
+	boolean c = a == b;
+	c = !(a == b);
+	c = a == a;
+	c = (new A).a == b;
+	c = a == (new A).a;
+	c = (new A).a == (new A).a;
+}
+
+void check_eq_arr_null() {
+	A[] a = new A[142];
+	boolean c = a == null;
+	c = !(a == null);
+	c = null == a;
+	c = (new A).a == null;
+	c = null == (new A).a;
+}
+
+void check_eq_class() {
+	A a = new A, b = new A;
+	boolean c = a == b;
+	c = !(a == b);
+	c = a == a;
+	c = (new A).c == b;
+	c = a == (new A).c;
+	c = (new A).c == (new A).c;
+	c = new A == new A;
+}
+
+void check_eq_class_null() {
+	A a = new A;
+	boolean c = a == null;
+	c = !(a == null);
+	c = null == a;
+	c = (new A).c == null;
+	c = null == (new A).c;
+	c = null == new A;
+	c = new A == null;
+}
+
+void check_eq_classes_hierarchy() {
+	A a = new A;
+	B b = new B;
+	boolean c = a == b;
+	c = !(a == b);
+	c = (new A).c == b;
+	c = b == (new A).c;
+	c = (new A).c == new B;
+	c = new B == (new A).c;
+	c = new A == b;
+	c = a == new B;
+	c = new A == new B;
+	c = new B == new A;
+}
+
+void check_ne_int() {
+	int a = 42, b = 8;
+	boolean c = a != b;
+	c = !(a != b);
+	c = a != a;
+	c = (new int[46]).length != b;
+	c = a != (new int[86]).length;
+	c = (new int[182]).length != (new int[a]).length;
+	c = 6521 != 517;
+}
+
+void check_ne_str() {
+	string a = "abc", b = "xyz";
+	boolean c = a != b;
+	c = !(a != b);
+	c = a != a;
+	c = "hoho" != b;
+	c = a != "hoho";
+	c = (new A).s != (new A).s;
+	c = "bla" != "alb";
+}
+
+void check_ne_bool() {
+	boolean a = true, b = false;
+	boolean c = a != b;
+	c = !(a != b);
+	c = a != a;
+	c = (new A).b != b;
+	c = a != (new A).b;
+	c = (new A).b != (new A).b;
+	c = true != false;
+}
+
+void check_ne_null() {
+	boolean c = null != null;
+	c = !(null != null);
+}
+
+void check_ne_arr() {
+	A[] a = new A[142], b = new A[312];
+	boolean c = a != b;
+	c = !(a != b);
+	c = a != a;
+	c = (new A).a != b;
+	c = a != (new A).a;
+	c = (new A).a != (new A).a;
+}
+
+void check_ne_arr_null() {
+	A[] a = new A[142];
+	boolean c = a != null;
+	c = !(a != null);
+	c = null != a;
+	c = (new A).a != null;
+	c = null != (new A).a;
+}
+
+void check_ne_class() {
+	A a = new A, b = new A;
+	boolean c = a != b;
+	c = !(a != b);
+	c = a != a;
+	c = (new A).c != b;
+	c = a != (new A).c;
+	c = (new A).c != (new A).c;
+	c = new A != new A;
+}
+
+void check_ne_class_null() {
+	A a = new A;
+	boolean c = a != null;
+	c = !(a != null);
+	c = null != a;
+	c = (new A).c != null;
+	c = null != (new A).c;
+	c = null != new A;
+	c = new A != null;
+}
+
+void check_ne_classes_hierarchy() {
+	A a = new A;
+	B b = new B;
+	boolean c = a != b;
+	c = !(a != b);
+	c = (new A).c != b;
+	c = b != (new A).c;
+	c = (new A).c != new B;
+	c = new B != (new A).c;
+	c = new A != b;
+	c = a != new B;
+	c = new A != new B;
+	c = new B != new A;
+}
+
+string get_str() {
+	return "abc";
+}
+
+string fuse(string a, string b) {
+	return a + b;
+}
+
+class C {
+	string mfuse(string a, string b) {
+		return a + b;
+	}
+
+	void check_mcall_as_fcall() {
+		mfuse(get_str(), get_str());
+		string s = mfuse(get_str(), get_str());
+	}
+}
+
+void check_fcall() {
+	printInt(142);
+	printString("abc");
+	get_str();
+	printString(get_str());
+	fuse("abc", "cde");
+	string s = fuse("abc", "cde");
+	(new C).check_mcall_as_fcall();
+}
+
+class D {
+	void noop() {}
+
+	string mfuse(string a, string b) {
+		return a + b;
+	}
+
+	int madd(int a, int b) {
+		return a + b;
+	}
+
+	void check_mcall_as_mcall() {
+		self.noop();
+		self.mfuse("abc", "cde");
+		string s = self.mfuse("abc", "cde");
+		int[] arr = new int[168];
+		int x = self.madd(arr.length, 42);
+	}
+}
+
+void check_mcall() {
+	D d;
+	d.noop();
+	d = new D;
+	d.noop();
+	(new D).noop();
+	d.mfuse("abc", "cde");
+	(new D).mfuse("abc", "cde");
+	string s = d.mfuse("abc", "cde");
+	int[] arr = new int[168];
+	int x = d.madd(arr.length, 42);
+	d.check_mcall_as_mcall();
+}
+
+void check_string_arr() {
+	new string[42];
+	string[] a = new string[108];
+	a[42] = "bla bla";
+}
+
+class Whiler {
+	int i;
+
+	boolean next() {
+		i++;
+		return i < 10;
+	}
+}
+
+void check_while() {
+	Whiler w = new Whiler;
+	string s = "xxx";
+	while (w.next())
+		string s = "bla bla";
+	w = new Whiler;
+	while (w.next()) {
+		string s = "bla bla";
+	}
+	while (false) {
+		error();
+	}
+	int i = 0;
+	while (true) {
+		i++;
+		if (i > 42) {
+			printString("while: OK");
+			return;
+		}
+	}
+}
+
+void check_for() {
+	string[] arr = new string[42];
+	for (string str : arr) {
+		printString(str);
+		string x = str + "bla";
+		printString(x);
+	}
+	for (string str : arr)
+		int arr;
+	// nasty case
+	for (string str : arr) {
+		arr = null;
+	}
+	for (string str : new string[4]) {
+		str = "bla bla" + str;
+		printString(str);
+	}
+	int sum = 0;
+	for (int x : new int[42]) {
+		sum = sum + x;
+	}
+	if (sum != 0) error();
+	for (string s : arr) {
+		return;
+	}
+}
+
+void check_if() {
+	if ("x" + "y" == "xy") {
+		printString("good");
+	}
+	if (true) {
+		printString("good");
+	} else {
+		printString("bad");
+	}
+	if (false) {
+		printString("bad");
+	} else {
+		printString("good");
+	}
+
+	if (fuse("a", "b") == "ab") {
+		printString("good");
+	}
+
+	if (fuse("a", "b") == "ab") {
+		printString("good");
+	} else {
+		printString("bad");
+	}
+
+	if (fuse("a", "b") != "ab") {
+		printString("good");
+	} else {
+		printString("bad");
+	}
+}
+
+void check_void_return1() {
+	string a = "abc";
+	{
+		string a = "cde";
+		{
+			string b = "efg";
+			return;
+		}
+	}
+}
+
+void check_void_return2() {
+	string a = "abc";
+	{
+		string a = "cde";
+		{
+			string b = "efg";
+			while (true) {
+				string a = "xxx";
+				return;
+				printInt(42);
+			}
+			printInt(42);
+		}
+		printInt(42);
+	}
+	printInt(42);
+}
+
+void check_void_return3() {
+	string a = "abc";
+	{
+		string a = "cde";
+		{
+			string b = "efg";
+			while (true) {
+				string a = "xxx";
+				for (string x : new string[42]) {
+					string y = "bla";
+					return;
+					printInt(42);
+				}
+				printInt(42);
+			}
+			printInt(42);
+		}
+		printInt(42);
+	}
+	printInt(42);
+}
+
+void check_void_return4(int which) {
+	string a = "abc";
+	{
+		string a = "cde";
+		{
+			string b = "efg";
+			while (true) {
+				string a = "xxx";
+				for (string x : new string[42]) {
+					string y = "bla";
+					if (which == 1) {
+						printInt(1);
+						return;
+					} else {
+						printInt(2);
+						return;
+					}
+					printInt(42);
+				}
+				printInt(42);
+			}
+			printInt(42);
+		}
+		printInt(42);
+	}
+	printInt(42);
+}
+
+void check_void_return() {
+	check_void_return1();
+	check_void_return2();
+	check_void_return3();
+	check_void_return4(1);
+	check_void_return4(2);
+}
+
+string check_return1() {
+	string a = "abc";
+	{
+		string a = "cde";
+		{
+			string b = "efg";
+			return "bla";
+		}
+	}
+}
+
+string check_return2() {
+	string a = "abc";
+	{
+		string a = "cde";
+		{
+			string b = "efg";
+			while (true) {
+				string a = "xxx";
+				return "bla";
+				printInt(42);
+			}
+			printInt(42);
+		}
+		printInt(42);
+	}
+	printInt(42);
+}
+
+string check_return3() {
+	string a = "abc";
+	{
+		string a = "cde";
+		{
+			string b = "efg";
+			while (true) {
+				string a = "xxx";
+				for (string x : new string[42]) {
+					string y = "bla";
+					return "bla";
+					printInt(42);
+				}
+				printInt(42);
+			}
+			printInt(42);
+		}
+		printInt(42);
+	}
+	printInt(42);
+}
+
+string check_return4(int which) {
+	string a = "abc";
+	{
+		string a = "cde";
+		{
+			string b = "efg";
+			while (true) {
+				string a = "xxx";
+				for (string x : new string[42]) {
+					string y = "bla";
+					if (which == 1) {
+						printInt(1);
+						return "bla";
+					} else {
+						printInt(2);
+						return "bla";
+					}
+					printInt(42);
+				}
+				printInt(42);
+			}
+			printInt(42);
+		}
+		printInt(42);
+	}
+	printInt(42);
+}
+
+string check_return5(int which) {
+	string a = "abc";
+	if (which == 1)
+		return a;
+	{
+		string b = "cde";
+		if (which == 2)
+			return b;
+		int xx = 42;
+		while (xx > 0) {
+			xx--;
+			string c = "xxx";
+			if (which == 3)
+				return c;
+			for (string x : new string[42]) {
+				if (which == 4)
+					return x;
+				string y = "yyy";
+				if (which == 5)
+					return y;
+				if (which == 6)
+					return x;
+			}
+			if (which == 7)
+				return c;
+		}
+		if (which == 8)
+			return b;
+	}
+	if (which == 9)
+		return a;
+	return "?";
+}
+
+string check_return6() {
+	string x = "test";
+	if (false) {
+		return "42";
+	}
+	if (true) {
+		return "86";
+	}
+}
+
+void assert(boolean b) {
+	if (!b) error();
+}
+
+void check_return() {
+	assert(check_return1() == "bla");
+	assert(check_return2() == "bla");
+	assert(check_return3() == "bla");
+	assert(check_return4(1) == "bla");
+	assert(check_return4(2) == "bla");
+	assert(check_return5(0) == "?");
+	assert(check_return5(1) == "abc");
+	assert(check_return5(2) == "cde");
+	assert(check_return5(3) == "xxx");
+	assert(check_return5(4) == "");
+	assert(check_return5(5) == "yyy");
+	assert(check_return5(6) == "");
+	assert(check_return5(7) == "xxx");
+	assert(check_return5(8) == "cde");
+	assert(check_return5(9) == "abc");
+	assert(check_return5(10) == "?");
+	assert(check_return6() == "86");
+}
+
+int main() {
+	test();
+	xx();
+	yy();
+	t2();
+	check_def_uninit();
+	check_def_init();
+	check_int_neg();
+	check_bool_not();
+	check_bool_bin_ops();
+	check_add_int();
+	check_add_str();
+	check_sub_int();
+	check_mul_int();
+	check_div_int();
+	check_mod_int();
+	check_lth_int();
+	check_lth_str();
+	check_le_int();
+	check_le_str();
+	check_gth_int();
+	check_gth_str();
+	check_ge_int();
+	check_ge_str();
+	check_eq_int();
+	check_eq_str();
+	check_eq_bool();
+	check_eq_null();
+	check_eq_arr();
+	check_eq_arr_null();
+	check_eq_class();
+	check_eq_class_null();
+	check_eq_classes_hierarchy();
+	check_ne_int();
+	check_ne_str();
+	check_ne_bool();
+	check_ne_null();
+	check_ne_arr();
+	check_ne_arr_null();
+	check_ne_class();
+	check_ne_class_null();
+	check_ne_classes_hierarchy();
+	check_fcall();
+	check_mcall();
+	check_string_arr();
+	check_while();
+	check_for();
+	check_if();
+	check_void_return();
+	check_return();
+	return 0;
+}

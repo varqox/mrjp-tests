@@ -1,0 +1,12 @@
+int main() {
+	{
+		string a = "aaa", b = a;
+		a = "ccc";
+		if (b != "aaa") error();
+	}
+	{
+		string x = "xxx";
+		x = x;
+	}
+	return 0;
+}
