@@ -14,7 +14,7 @@ class X {
 }
 
 void test_and() {
-    X x;
+    X x = new X;
     x.btrue(1) && x.btrue(2);
     x.btrue(4) && x.bfalse(8);
     x.bfalse(16) && x.btrue(32);
@@ -23,7 +23,7 @@ void test_and() {
 }
 
 void test_or() {
-    X x;
+    X x = new X;
     x.btrue(1) || x.btrue(2);
     x.btrue(4) || x.bfalse(8);
     x.bfalse(16) || x.btrue(32);

@@ -9,7 +9,7 @@ int incr_x(X x) {
 }
 
 int main() {
-	X x;
+	X x = new X;
 	while (x.x < 10)
 		int x = incr_x(x);
 	if (x.x != 10) error();
