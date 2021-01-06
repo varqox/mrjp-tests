@@ -22,11 +22,11 @@ void test() {
 	YY yy = new YY;
 	YY[] ayy = new YY[42];
 	YY[] byy = new YY[42];
-	((YY[])null)[42];
-	((XX)null).i;
+	ayy[41];
+	xx.i;
 
-	((YY[])null)[27] = null;
-	((XX)null).i = 188;
+	ayy[27] = null;
+	xx.i = 188;
 
 	xx.a = "ho ho ho";
 
@@ -49,6 +49,9 @@ void test() {
 
 void xx() {
 	YY[] yy = new YY[108];
+	yy[1] = new YY;
+	yy[10] = new YY;
+	yy[13] = new YY;
 	yy[1].a = yy[13].bb;
 
 	yy[10].i++;
@@ -554,7 +557,7 @@ class D {
 }
 
 void check_mcall() {
-	D d;
+	D d = new D;
 	d.noop();
 	d = new D;
 	d.noop();
@@ -626,6 +629,7 @@ void check_for() {
 		sum = sum + x;
 	}
 	if (sum != 0) error();
+	arr = new string[88];
 	for (string s : arr) {
 		return;
 	}
