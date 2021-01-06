@@ -1,3 +1,4 @@
+// Author: Krzysztof Małysa (2021)
 int main() {
 	{
 		string a = "aaa", b = a;

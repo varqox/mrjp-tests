@@ -1,3 +1,4 @@
+// Author: Krzysztof Małysa (2021)
 class XX {
 	int i;
 	string a;
