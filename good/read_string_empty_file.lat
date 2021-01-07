@@ -1,0 +1,11 @@
+// Author: Krzysztof Małysa (2021)
+int main() {
+    printInt(1);
+    printString(readString());
+    printInt(2);
+    printString(readString());
+    printInt(3);
+    printString(readString());
+    printInt(4);
+    return 0;
+}
