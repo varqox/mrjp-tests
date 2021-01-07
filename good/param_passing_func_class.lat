@@ -1,0 +1,404 @@
+// Author: Krzysztof Małysa (2021)
+
+class A {
+	string s;
+	string ss;
+}
+
+void printClass(A a) {
+	if (a == (A)null) printString("null");
+	else printString("{s: " + a.s + ", ss: " + a.ss + "}");
+}
+
+void f0(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i0.ss = "db";
+	printClass(i0);
+	i0 = new A;
+	printClass(i0);
+}
+
+void f1(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i1.ss = "izlmbg";
+	printClass(i1);
+	i1 = new A;
+	printClass(i1);
+}
+
+void f2(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i2.ss = "vi";
+	printClass(i2);
+	i2 = null;
+	printClass(i2);
+}
+
+void f3(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i3.ss = "mi";
+	printClass(i3);
+	i3 = new A;
+	printClass(i3);
+}
+
+void f4(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i4.ss = "uqfbyzub";
+	printClass(i4);
+	i4 = null;
+	printClass(i4);
+}
+
+void f5(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i5.ss = "tkkyvqor";
+	printClass(i5);
+	i5 = null;
+	printClass(i5);
+}
+
+void f6(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i6.ss = "uk";
+	printClass(i6);
+	i6 = new A;
+	printClass(i6);
+}
+
+void f7(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i7.ss = "l";
+	printClass(i7);
+	i7 = new A;
+	printClass(i7);
+}
+
+void f8(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i8.ss = "j";
+	printClass(i8);
+	i8 = null;
+	printClass(i8);
+}
+
+void f9(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i9.ss = "oafgutb";
+	printClass(i9);
+	i9 = new A;
+	printClass(i9);
+}
+
+void f10(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i10.ss = "";
+	printClass(i10);
+	i10 = null;
+	printClass(i10);
+}
+
+void f11(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i11.ss = "g";
+	printClass(i11);
+	i11 = null;
+	printClass(i11);
+}
+
+void f12(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i12.ss = "ozaeeaqm";
+	printClass(i12);
+	i12 = null;
+	printClass(i12);
+}
+
+void f13(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i13.ss = "dqcznwkz";
+	printClass(i13);
+	i13 = new A;
+	printClass(i13);
+}
+
+void f14(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i14.ss = "";
+	printClass(i14);
+	i14 = new A;
+	printClass(i14);
+}
+
+void f15(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i15.ss = "vioi";
+	printClass(i15);
+	i15 = null;
+	printClass(i15);
+}
+
+void f16(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i16.ss = "u";
+	printClass(i16);
+	i16 = new A;
+	printClass(i16);
+}
+
+void f17(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i17.ss = "vvgro";
+	printClass(i17);
+	i17 = new A;
+	printClass(i17);
+}
+
+void f18(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i18.ss = "vxhyc";
+	printClass(i18);
+	i18 = new A;
+	printClass(i18);
+}
+
+void f19(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i19.ss = "zci";
+	printClass(i19);
+	i19 = new A;
+	printClass(i19);
+}
+
+void f20(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i20.ss = "juus";
+	printClass(i20);
+	i20 = new A;
+	printClass(i20);
+}
+
+void f21(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i21.ss = "fztgyinw";
+	printClass(i21);
+	i21 = null;
+	printClass(i21);
+}
+
+void f22(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i22.ss = "ji";
+	printClass(i22);
+	i22 = new A;
+	printClass(i22);
+}
+
+void f23(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i23.ss = "sjnh";
+	printClass(i23);
+	i23 = null;
+	printClass(i23);
+}
+
+void f24(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i24.ss = "thiuug";
+	printClass(i24);
+	i24 = null;
+	printClass(i24);
+}
+
+void f25(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i25.ss = "j";
+	printClass(i25);
+	i25 = null;
+	printClass(i25);
+}
+
+void f26(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i26.ss = "yl";
+	printClass(i26);
+	i26 = null;
+	printClass(i26);
+}
+
+void f27(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i27.ss = "webkbkmx";
+	printClass(i27);
+	i27 = null;
+	printClass(i27);
+}
+
+void f28(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i28.ss = "kxjnydd";
+	printClass(i28);
+	i28 = null;
+	printClass(i28);
+}
+
+void f29(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i29.ss = "bgietknq";
+	printClass(i29);
+	i29 = null;
+	printClass(i29);
+}
+
+void f30(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i30.ss = "jufvvpol";
+	printClass(i30);
+	i30 = null;
+	printClass(i30);
+}
+
+void f31(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i31.ss = "whzax";
+	printClass(i31);
+	i31 = null;
+	printClass(i31);
+}
+
+void f32(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i32.ss = "qxk";
+	printClass(i32);
+	i32 = null;
+	printClass(i32);
+}
+
+void f33(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i33.ss = "rn";
+	printClass(i33);
+	i33 = null;
+	printClass(i33);
+}
+
+void f34(A i0, A i1, A i2, A i3, A i4, A i5, A i6, A i7, A i8, A i9, A i10, A i11, A i12, A i13, A i14, A i15, A i16, A i17, A i18, A i19, A i20, A i21, A i22, A i23, A i24, A i25, A i26, A i27, A i28, A i29, A i30, A i31, A i32, A i33, A i34) {
+	i34.ss = "n";
+	printClass(i34);
+	i34 = new A;
+	printClass(i34);
+}
+
+int main() {
+	A x = new A;
+	x.s = ";p,l.r;l,pg ,;r.g]";
+	x.ss = "mimimimimimimimimimim";
+
+	printString("=== 0 ===");
+	f0(x, new A, null, null, null, null, null, new A, new A, new A, null, new A, null, new A, new A, null, null, new A, new A, null, new A, new A, new A, null, null, new A, null, null, new A, null, new A, new A, new A, null, new A);
+	printClass(x);
+
+	printString("=== 1 ===");
+	f1(new A, x, new A, null, null, null, new A, new A, null, new A, new A, null, new A, new A, null, new A, new A, null, new A, null, null, new A, null, null, new A, new A, new A, null, null, new A, new A, new A, new A, new A, new A);
+	printClass(x);
+
+	printString("=== 2 ===");
+	f2(new A, null, x, null, new A, null, null, null, new A, new A, null, new A, null, null, null, new A, null, new A, new A, new A, new A, new A, new A, new A, null, new A, null, new A, new A, null, null, new A, new A, null, null);
+	printClass(x);
+
+	printString("=== 3 ===");
+	f3(new A, null, new A, x, new A, null, null, new A, null, null, new A, new A, new A, new A, new A, null, null, new A, null, new A, null, null, new A, new A, null, null, new A, null, null, null, null, null, null, null, new A);
+	printClass(x);
+
+	printString("=== 4 ===");
+	f4(null, null, null, null, x, new A, new A, new A, null, new A, null, null, null, null, new A, null, null, null, null, new A, new A, new A, new A, new A, null, null, new A, new A, null, null, null, new A, new A, null, new A);
+	printClass(x);
+
+	printString("=== 5 ===");
+	f5(null, null, null, new A, null, x, new A, null, new A, new A, new A, null, new A, new A, null, null, null, null, new A, new A, new A, null, null, new A, null, new A, new A, new A, null, new A, new A, new A, null, new A, null);
+	printClass(x);
+
+	printString("=== 6 ===");
+	f6(null, null, new A, null, new A, new A, x, new A, null, null, new A, null, new A, new A, new A, new A, new A, null, new A, new A, new A, new A, new A, null, new A, null, new A, new A, new A, null, null, new A, new A, null, null);
+	printClass(x);
+
+	printString("=== 7 ===");
+	f7(new A, new A, new A, null, new A, null, new A, x, null, null, null, new A, null, null, new A, null, new A, null, null, null, new A, new A, null, new A, null, null, new A, null, null, null, new A, new A, null, new A, new A);
+	printClass(x);
+
+	printString("=== 8 ===");
+	f8(null, new A, new A, null, null, new A, null, new A, x, null, null, new A, null, null, null, null, null, null, null, new A, null, new A, null, new A, new A, new A, new A, new A, null, null, new A, null, null, new A, new A);
+	printClass(x);
+
+	printString("=== 9 ===");
+	f9(new A, null, new A, null, null, new A, null, null, new A, x, new A, new A, new A, new A, new A, null, new A, null, new A, new A, null, null, null, new A, new A, null, new A, new A, null, null, new A, new A, new A, new A, new A);
+	printClass(x);
+
+	printString("=== 10 ===");
+	f10(new A, new A, new A, new A, new A, null, new A, null, new A, new A, x, new A, null, new A, null, null, null, null, null, null, new A, null, null, new A, new A, new A, null, null, null, null, null, null, new A, null, null);
+	printClass(x);
+
+	printString("=== 11 ===");
+	f11(null, new A, null, null, null, null, new A, new A, null, new A, new A, x, new A, null, new A, new A, new A, null, null, new A, null, null, null, null, null, null, null, null, null, new A, new A, null, null, new A, new A);
+	printClass(x);
+
+	printString("=== 12 ===");
+	f12(null, null, null, null, new A, null, new A, null, null, new A, null, new A, x, null, new A, null, null, new A, null, new A, null, null, null, new A, null, null, new A, new A, new A, null, new A, null, new A, new A, null);
+	printClass(x);
+
+	printString("=== 13 ===");
+	f13(new A, new A, new A, null, new A, null, null, new A, null, new A, null, new A, new A, x, null, null, null, null, null, new A, null, new A, new A, null, null, new A, null, null, new A, null, new A, new A, new A, null, null);
+	printClass(x);
+
+	printString("=== 14 ===");
+	f14(new A, null, null, null, null, new A, null, new A, null, new A, new A, null, null, new A, x, new A, new A, new A, null, null, new A, null, new A, null, new A, new A, null, null, null, new A, new A, null, new A, new A, new A);
+	printClass(x);
+
+	printString("=== 15 ===");
+	f15(null, null, new A, null, new A, null, null, new A, null, new A, new A, null, null, new A, new A, x, new A, new A, new A, null, null, new A, null, new A, null, null, null, new A, new A, null, null, new A, null, null, new A);
+	printClass(x);
+
+	printString("=== 16 ===");
+	f16(null, null, new A, new A, null, null, new A, new A, new A, null, new A, new A, new A, new A, new A, new A, x, new A, new A, new A, new A, new A, new A, new A, new A, null, null, new A, new A, null, null, null, null, null, new A);
+	printClass(x);
+
+	printString("=== 17 ===");
+	f17(null, new A, new A, new A, null, null, null, new A, null, new A, null, null, null, null, new A, null, new A, x, null, new A, null, new A, null, new A, new A, null, null, null, null, new A, new A, null, null, new A, new A);
+	printClass(x);
+
+	printString("=== 18 ===");
+	f18(null, null, null, new A, new A, new A, null, null, null, null, null, null, new A, new A, new A, null, null, new A, x, new A, new A, null, null, null, new A, new A, null, null, new A, new A, new A, new A, new A, null, new A);
+	printClass(x);
+
+	printString("=== 19 ===");
+	f19(null, new A, new A, new A, null, null, null, new A, null, new A, null, null, new A, null, new A, null, null, new A, new A, x, new A, new A, null, new A, null, new A, new A, null, null, null, null, null, new A, new A, null);
+	printClass(x);
+
+	printString("=== 20 ===");
+	f20(new A, new A, null, null, null, new A, null, null, new A, null, new A, new A, null, null, new A, new A, null, null, null, new A, x, null, new A, new A, new A, new A, new A, null, new A, null, null, new A, new A, null, new A);
+	printClass(x);
+
+	printString("=== 21 ===");
+	f21(new A, null, null, new A, null, new A, null, new A, new A, new A, null, null, null, new A, null, null, new A, new A, new A, null, null, x, null, new A, new A, null, null, new A, new A, new A, null, new A, null, null, new A);
+	printClass(x);
+
+	printString("=== 22 ===");
+	f22(new A, null, new A, null, new A, new A, null, null, new A, null, new A, new A, new A, null, null, new A, new A, null, null, new A, new A, null, x, new A, null, new A, null, null, null, null, null, null, new A, new A, new A);
+	printClass(x);
+
+	printString("=== 23 ===");
+	f23(null, new A, null, new A, new A, null, new A, new A, new A, null, null, new A, null, new A, new A, new A, new A, new A, null, null, new A, new A, null, x, new A, null, new A, new A, new A, null, null, new A, null, new A, null);
+	printClass(x);
+
+	printString("=== 24 ===");
+	f24(new A, new A, null, null, new A, new A, null, new A, null, new A, null, null, null, null, new A, new A, null, null, null, new A, new A, new A, new A, null, x, null, null, null, null, new A, null, new A, new A, new A, new A);
+	printClass(x);
+
+	printString("=== 25 ===");
+	f25(new A, null, null, new A, null, new A, null, new A, new A, new A, new A, null, new A, new A, new A, null, new A, new A, new A, null, new A, new A, new A, null, new A, x, new A, null, new A, new A, new A, null, new A, new A, null);
+	printClass(x);
+
+	printString("=== 26 ===");
+	f26(new A, new A, new A, null, null, null, null, new A, new A, new A, new A, new A, null, new A, new A, null, null, new A, null, null, new A, new A, new A, new A, null, new A, x, new A, null, new A, null, null, new A, null, null);
+	printClass(x);
+
+	printString("=== 27 ===");
+	f27(null, new A, new A, new A, null, new A, new A, null, new A, null, null, new A, new A, null, new A, null, null, new A, null, null, null, null, null, null, null, null, null, x, null, null, new A, null, null, null, new A);
+	printClass(x);
+
+	printString("=== 28 ===");
+	f28(null, new A, null, new A, new A, null, new A, null, new A, new A, null, null, new A, new A, null, new A, null, new A, new A, null, null, new A, new A, new A, new A, new A, new A, null, x, null, new A, new A, null, new A, new A);
+	printClass(x);
+
+	printString("=== 29 ===");
+	f29(new A, null, null, new A, new A, null, new A, null, new A, new A, null, new A, new A, null, new A, new A, null, new A, null, null, new A, null, new A, new A, null, new A, new A, new A, null, x, new A, new A, null, null, null);
+	printClass(x);
+
+	printString("=== 30 ===");
+	f30(null, new A, new A, new A, null, null, new A, new A, null, new A, new A, new A, new A, null, new A, null, new A, null, null, new A, new A, null, new A, new A, new A, new A, null, null, null, null, x, null, new A, null, new A);
+	printClass(x);
+
+	printString("=== 31 ===");
+	f31(null, new A, new A, new A, null, new A, new A, new A, new A, null, new A, new A, null, new A, new A, null, new A, null, null, new A, null, null, null, null, new A, new A, new A, new A, null, new A, null, x, null, null, null);
+	printClass(x);
+
+	printString("=== 32 ===");
+	f32(null, new A, null, new A, new A, null, null, new A, new A, new A, null, new A, new A, new A, new A, new A, new A, new A, new A, null, new A, null, null, null, new A, null, new A, null, new A, null, null, new A, x, new A, new A);
+	printClass(x);
+
+	printString("=== 33 ===");
+	f33(null, new A, new A, new A, null, new A, null, new A, new A, null, null, null, null, new A, null, null, null, null, null, new A, new A, null, new A, null, new A, new A, null, null, new A, null, null, new A, new A, x, null);
+	printClass(x);
+
+	printString("=== 34 ===");
+	f34(new A, null, new A, null, new A, null, null, null, new A, null, null, new A, new A, null, null, null, new A, null, new A, null, null, new A, new A, null, new A, new A, new A, new A, null, new A, null, null, new A, new A, x);
+	printClass(x);
+
+	return 0;
+}

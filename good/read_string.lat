@@ -1,0 +1,21 @@
+// Author: Krzysztof Małysa (2021)
+int main() {
+    printString(readString());
+    printString(readString());
+    printString(readString());
+    string s = "abc";
+    while (s != "") {
+        s = readString();
+        printString(s);
+    }
+    printInt(1);
+    printString(readString());
+    printInt(2);
+    printString(readString());
+    printInt(3);
+    printString(readString());
+    printInt(4);
+    printString(readString());
+    printInt(5);
+	return 0;
+}

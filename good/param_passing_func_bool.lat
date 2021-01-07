@@ -1,0 +1,327 @@
+// Author: Krzysztof Małysa (2021)
+
+void printBool(boolean b) {
+	if (b) printString("true");
+	else printString("false");
+}
+
+void f0(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i0 = true;
+	printBool(i0);
+}
+
+void f1(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i1 = true;
+	printBool(i1);
+}
+
+void f2(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i2 = true;
+	printBool(i2);
+}
+
+void f3(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i3 = true;
+	printBool(i3);
+}
+
+void f4(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i4 = true;
+	printBool(i4);
+}
+
+void f5(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i5 = true;
+	printBool(i5);
+}
+
+void f6(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i6 = true;
+	printBool(i6);
+}
+
+void f7(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i7 = true;
+	printBool(i7);
+}
+
+void f8(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i8 = true;
+	printBool(i8);
+}
+
+void f9(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i9 = true;
+	printBool(i9);
+}
+
+void f10(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i10 = true;
+	printBool(i10);
+}
+
+void f11(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i11 = true;
+	printBool(i11);
+}
+
+void f12(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i12 = true;
+	printBool(i12);
+}
+
+void f13(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i13 = true;
+	printBool(i13);
+}
+
+void f14(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i14 = true;
+	printBool(i14);
+}
+
+void f15(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i15 = true;
+	printBool(i15);
+}
+
+void f16(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i16 = true;
+	printBool(i16);
+}
+
+void f17(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i17 = true;
+	printBool(i17);
+}
+
+void f18(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i18 = true;
+	printBool(i18);
+}
+
+void f19(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i19 = true;
+	printBool(i19);
+}
+
+void f20(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i20 = true;
+	printBool(i20);
+}
+
+void f21(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i21 = true;
+	printBool(i21);
+}
+
+void f22(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i22 = true;
+	printBool(i22);
+}
+
+void f23(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i23 = true;
+	printBool(i23);
+}
+
+void f24(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i24 = true;
+	printBool(i24);
+}
+
+void f25(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i25 = true;
+	printBool(i25);
+}
+
+void f26(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i26 = true;
+	printBool(i26);
+}
+
+void f27(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i27 = true;
+	printBool(i27);
+}
+
+void f28(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i28 = true;
+	printBool(i28);
+}
+
+void f29(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i29 = true;
+	printBool(i29);
+}
+
+void f30(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i30 = true;
+	printBool(i30);
+}
+
+void f31(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i31 = true;
+	printBool(i31);
+}
+
+void f32(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i32 = true;
+	printBool(i32);
+}
+
+void f33(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i33 = true;
+	printBool(i33);
+}
+
+void f34(boolean i0, boolean i1, boolean i2, boolean i3, boolean i4, boolean i5, boolean i6, boolean i7, boolean i8, boolean i9, boolean i10, boolean i11, boolean i12, boolean i13, boolean i14, boolean i15, boolean i16, boolean i17, boolean i18, boolean i19, boolean i20, boolean i21, boolean i22, boolean i23, boolean i24, boolean i25, boolean i26, boolean i27, boolean i28, boolean i29, boolean i30, boolean i31, boolean i32, boolean i33, boolean i34) {
+	i34 = true;
+	printBool(i34);
+}
+
+int main() {
+	boolean x = false;
+
+	printString("=== 0 ===");
+	f0(x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 1 ===");
+	f1(true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 2 ===");
+	f2(true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 3 ===");
+	f3(true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 4 ===");
+	f4(true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 5 ===");
+	f5(true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 6 ===");
+	f6(true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 7 ===");
+	f7(true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 8 ===");
+	f8(true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 9 ===");
+	f9(true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 10 ===");
+	f10(true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 11 ===");
+	f11(true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 12 ===");
+	f12(true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 13 ===");
+	f13(true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 14 ===");
+	f14(true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 15 ===");
+	f15(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 16 ===");
+	f16(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 17 ===");
+	f17(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 18 ===");
+	f18(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 19 ===");
+	f19(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 20 ===");
+	f20(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 21 ===");
+	f21(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 22 ===");
+	f22(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 23 ===");
+	f23(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 24 ===");
+	f24(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 25 ===");
+	f25(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 26 ===");
+	f26(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 27 ===");
+	f27(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 28 ===");
+	f28(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 29 ===");
+	f29(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true, true);
+	printBool(x);
+
+	printString("=== 30 ===");
+	f30(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true, true);
+	printBool(x);
+
+	printString("=== 31 ===");
+	f31(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true, true);
+	printBool(x);
+
+	printString("=== 32 ===");
+	f32(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true, true);
+	printBool(x);
+
+	printString("=== 33 ===");
+	f33(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x, true);
+	printBool(x);
+
+	printString("=== 34 ===");
+	f34(true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, x);
+	printBool(x);
+
+	return 0;
+}

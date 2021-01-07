@@ -1,0 +1,322 @@
+// Author: Krzysztof Małysa (2021)
+
+void f0(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i0 = "gzp";
+	printString(i0);
+}
+
+void f1(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i1 = "nxpt";
+	printString(i1);
+}
+
+void f2(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i2 = "oo";
+	printString(i2);
+}
+
+void f3(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i3 = "oqlxten";
+	printString(i3);
+}
+
+void f4(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i4 = "hsr";
+	printString(i4);
+}
+
+void f5(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i5 = "mtdt";
+	printString(i5);
+}
+
+void f6(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i6 = "dao";
+	printString(i6);
+}
+
+void f7(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i7 = "bynm";
+	printString(i7);
+}
+
+void f8(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i8 = "t";
+	printString(i8);
+}
+
+void f9(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i9 = "gpeabl";
+	printString(i9);
+}
+
+void f10(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i10 = "hc";
+	printString(i10);
+}
+
+void f11(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i11 = "i";
+	printString(i11);
+}
+
+void f12(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i12 = "eikvg";
+	printString(i12);
+}
+
+void f13(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i13 = "of";
+	printString(i13);
+}
+
+void f14(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i14 = "";
+	printString(i14);
+}
+
+void f15(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i15 = "bctvwdl";
+	printString(i15);
+}
+
+void f16(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i16 = "xk";
+	printString(i16);
+}
+
+void f17(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i17 = "";
+	printString(i17);
+}
+
+void f18(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i18 = "hasy";
+	printString(i18);
+}
+
+void f19(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i19 = "yrjqbrq";
+	printString(i19);
+}
+
+void f20(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i20 = "mysxyn";
+	printString(i20);
+}
+
+void f21(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i21 = "yynkv";
+	printString(i21);
+}
+
+void f22(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i22 = "jzo";
+	printString(i22);
+}
+
+void f23(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i23 = "";
+	printString(i23);
+}
+
+void f24(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i24 = "bvjqqmfl";
+	printString(i24);
+}
+
+void f25(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i25 = "fvso";
+	printString(i25);
+}
+
+void f26(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i26 = "o";
+	printString(i26);
+}
+
+void f27(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i27 = "eilc";
+	printString(i27);
+}
+
+void f28(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i28 = "q";
+	printString(i28);
+}
+
+void f29(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i29 = "wzjed";
+	printString(i29);
+}
+
+void f30(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i30 = "bxlqot";
+	printString(i30);
+}
+
+void f31(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i31 = "lk";
+	printString(i31);
+}
+
+void f32(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i32 = "gzt";
+	printString(i32);
+}
+
+void f33(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i33 = "r";
+	printString(i33);
+}
+
+void f34(string i0, string i1, string i2, string i3, string i4, string i5, string i6, string i7, string i8, string i9, string i10, string i11, string i12, string i13, string i14, string i15, string i16, string i17, string i18, string i19, string i20, string i21, string i22, string i23, string i24, string i25, string i26, string i27, string i28, string i29, string i30, string i31, string i32, string i33, string i34) {
+	i34 = "nfzz";
+	printString(i34);
+}
+
+int main() {
+	string x = "atoh  tohe os";
+
+	printString("=== 0 ===");
+	f0(x, "r", "va", "qmvplhqh", "nldhgxu", "zlwwqqzv", "", "hxfuehbe", "dgxzmn", "cqwgrjpc", "kxlfd", "xhwftfl", "dgo", "q", "fett", "ddjwrtz", "dmqebju", "bpun", "qdqq", "", "", "hhe", "bzkncwra", "fuzl", "xoxtxhty", "befciy", "hvblxvd", "klkkos", "fmq", "dko", "", "igl", "czhjirg", "ffizob", "xxxc");
+	printString(x);
+
+	printString("=== 1 ===");
+	f1("wl", x, "h", "ymjbxbpq", "y", "xwfhpfr", "nwr", "pi", "nrpf", "vli", "knnqnen", "j", "", "hcezou", "z", "cnvj", "jknc", "", "tljrfhg", "imti", "eov", "yrnmzo", "x", "yx", "ov", "", "vbiydj", "brekzt", "g", "fvafklrg", "hqjaxf", "n", "ursreb", "zhzfyuff", "n");
+	printString(x);
+
+	printString("=== 2 ===");
+	f2("ykbbcthz", "aquessm", x, "", "wx", "mnwc", "ttptzfm", "xzq", "ybonedk", "", "", "qf", "cwtdkuko", "", "qh", "jrspt", "mfjs", "", "sxmqyod", "wfgzjyal", "dmpqyey", "e", "xdlokyyc", "pzukv", "", "", "tytllt", "qnxwg", "", "tqeldl", "dbkexyl", "zuazjsr", "", "vxasv", "qlqw");
+	printString(x);
+
+	printString("=== 3 ===");
+	f3("ddqxya", "vrzfsadp", "vco", x, "wjqz", "jvcuiqg", "xqvfl", "mtl", "ajs", "pnm", "o", "wps", "slwn", "", "nsbzopgd", "ujasdgj", "", "zwxtu", "", "tknuljn", "t", "vctwxd", "waonuhre", "mqjbyfzp", "wio", "mtnu", "qwnheaa", "m", "", "hjgaa", "iw", "rjsrq", "wax", "wvgei", "");
+	printString(x);
+
+	printString("=== 4 ===");
+	f4("doe", "vwxj", "irlq", "swgiozdc", x, "rbn", "", "bc", "jun", "", "", "xtslgm", "fynew", "anaor", "pelnoqx", "lmiwei", "hkb", "meep", "", "m", "jjpp", "bkm", "hakvkjys", "luwu", "gm", "vdmuscq", "zt", "hclb", "upyqi", "", "ycpdyudl", "qbpf", "b", "hpipbpyw", "sizuodq");
+	printString(x);
+
+	printString("=== 5 ===");
+	f5("whcsd", "pwgyxabv", "en", "z", "hkkasa", x, "thlpdui", "i", "v", "ku", "", "hiam", "mo", "jkfrnbdl", "u", "itfgwzyc", "niyjjkf", "tdehzizb", "b", "q", "ail", "gwdb", "", "px", "", "tslo", "atqq", "xpmezyz", "xawdew", "", "cjidvdt", "b", "i", "", "");
+	printString(x);
+
+	printString("=== 6 ===");
+	f6("zpuwgepr", "uth", "ml", "cz", "glzm", "", x, "fr", "r", "k", "b", "d", "yisx", "ne", "vrsb", "tbnyw", "", "qrii", "edz", "vulz", "", "", "rvdo", "", "vlpkuji", "jingbt", "ymzmpcu", "wxvcesuj", "h", "yzdozgcl", "sgtgrb", "yj", "", "kmjsusco", "xarc");
+	printString(x);
+
+	printString("=== 7 ===");
+	f7("mfupz", "ka", "w", "", "mupwy", "zl", "nuohlv", x, "mpjyriud", "nwaymgkc", "bdum", "yfqyb", "od", "hsdvyzp", "c", "visptll", "s", "pscrqik", "qyp", "v", "ypbu", "q", "jreiet", "tszxilmb", "oq", "zp", "kle", "jpaxwm", "kwnaj", "ehyr", "md", "", "txqt", "", "ndjh");
+	printString(x);
+
+	printString("=== 8 ===");
+	f8("rlscz", "zdsdyz", "wwqjulbc", "tbjxfeai", "un", "koqirq", "oh", "gvr", x, "nayajk", "", "indelcri", "ftohzs", "q", "hngvcm", "bvg", "", "tlgeuz", "zwkqmna", "q", "mwxakaew", "ku", "rppkzld", "k", "ltllu", "aalkbypm", "", "u", "d", "t", "ic", "agvigbt", "ryeadqt", "", "");
+	printString(x);
+
+	printString("=== 9 ===");
+	f9("necxe", "cnnvwyf", "xfqx", "nqyw", "eqwav", "wmo", "xvcd", "qgdi", "ibvqu", x, "zn", "yc", "xq", "", "", "pho", "gbtux", "czi", "gpp", "nb", "yturrw", "rqyi", "wxpnmocv", "mnfujdry", "chvh", "pcbubkza", "yrsv", "jbiiifdf", "xzjs", "", "uxvky", "toxa", "dkp", "izzal", "m");
+	printString(x);
+
+	printString("=== 10 ===");
+	f10("u", "kzmakgsj", "brlhu", "hfqscp", "", "anx", "", "rlhv", "eupu", "tofre", x, "layjex", "xaxquaor", "f", "svutv", "nfxsg", "nxs", "pvsmta", "c", "", "p", "", "nxfp", "gke", "pkb", "iwpsy", "xa", "mgjlfg", "", "s", "mr", "rds", "kumtoqen", "eclu", "v");
+	printString(x);
+
+	printString("=== 11 ===");
+	f11("eeu", "ytpygm", "yrtra", "vsjmxm", "tvp", "clxkita", "iksppu", "fu", "", "tvvopgbg", "uhsdmtfh", x, "zay", "obxc", "t", "dybhpvwj", "dffsgmjr", "qtzt", "ay", "jqkwgadd", "", "qwdczc", "fxgjs", "", "k", "nop", "yrgdb", "da", "ovpz", "", "dxeoh", "ievxygxw", "dogsxes", "qf", "vh");
+	printString(x);
+
+	printString("=== 12 ===");
+	f12("kscw", "fnju", "iqjd", "nq", "iobh", "appxlgen", "wpnbf", "k", "gozwlr", "gj", "", "", x, "ezwpjv", "vrlthty", "rkhadtpy", "bvx", "q", "gq", "rjvv", "sdvm", "h", "", "oyau", "ifmmpnkx", "wjnbxi", "zhq", "gikxha", "xknkuflr", "bud", "q", "ckup", "ozqqyg", "jtfjo", "j");
+	printString(x);
+
+	printString("=== 13 ===");
+	f13("mhbzr", "qltmlvqy", "uxtaygyd", "", "gxalgee", "araz", "bzcyodun", "moblqzqn", "w", "x", "vjir", "k", "egegvgq", x, "axhrnl", "pm", "", "", "ibpm", "kftfvspi", "jwi", "pjyuapfv", "", "kqhtzg", "glwvtnmt", "gjxmdnf", "zjeydsl", "yrvxzpof", "ohachgiu", "jegn", "vglleg", "a", "dg", "eem", "lxig");
+	printString(x);
+
+	printString("=== 14 ===");
+	f14("favkkoe", "tb", "xepeqv", "r", "ictl", "ukwdgrks", "peefuq", "kwaf", "", "", "otv", "lv", "uupbcul", "ernfchl", x, "xasl", "l", "letpat", "knto", "kqx", "", "n", "azq", "ecpcs", "", "luttz", "", "iaxvxn", "gruun", "a", "puu", "rcbgoti", "dtbxwfj", "f", "se");
+	printString(x);
+
+	printString("=== 15 ===");
+	f15("tyav", "ugwrkkh", "", "ubbqd", "", "o", "kyo", "q", "lztqnbq", "ll", "uoecszop", "sjrxz", "zw", "kpaxjov", "ayboyp", x, "wk", "ta", "nzi", "aqcisowu", "gxg", "itiiyk", "zirsjat", "fuon", "ugkli", "osl", "wjdrzary", "awrg", "x", "fnu", "peba", "sirbffnm", "qwg", "hh", "xzw");
+	printString(x);
+
+	printString("=== 16 ===");
+	f16("rfhbw", "iccksyc", "h", "vkwgqe", "crimfync", "rpmpkil", "hckff", "egjjsyyh", "cljztub", "zwh", "plmcyk", "bibrkbq", "wyucnod", "d", "tx", "", x, "inatkv", "elqongnt", "acy", "ikcgtv", "liqhbv", "tktmbdo", "", "kehe", "omlt", "fvyy", "u", "kmkz", "tjjjmhs", "haglfr", "v", "d", "co", "dfjusr");
+	printString(x);
+
+	printString("=== 17 ===");
+	f17("mitxdsxi", "d", "rxvm", "tpe", "vfta", "bokb", "scrg", "qtw", "rrmxwb", "", "kaikqywg", "nnmlxsq", "", "kiyr", "rz", "k", "ctq", x, "ntgholn", "vxrlmz", "dsl", "dvsi", "sdyp", "ukgfmi", "slfajnbn", "sfleimh", "cehnrn", "lupjqfc", "", "otmwkx", "e", "qodlmd", "nlucooi", "yvrjsz", "itcsti");
+	printString(x);
+
+	printString("=== 18 ===");
+	f18("vcejhf", "hflyln", "quiedhcl", "uskoc", "j", "", "zxcb", "", "vk", "lpmwpz", "hczkim", "", "omaiye", "ipiuee", "goazaw", "", "", "kdia", x, "n", "wdqpos", "iegywqkn", "arfnm", "rd", "jmzpcze", "nzw", "p", "ks", "dtvxo", "bgnvzs", "atamut", "ar", "zuuug", "iez", "bbxjn");
+	printString(x);
+
+	printString("=== 19 ===");
+	f19("nkqcw", "tx", "jva", "ey", "qrfemym", "", "pwgdr", "eu", "melqzr", "frfej", "o", "qz", "t", "i", "lpxegi", "vw", "", "ixbb", "cikt", x, "arq", "kibmahm", "rqwktnba", "gt", "brb", "ura", "l", "eiiz", "bqojbpud", "gl", "kgtf", "vlirrabl", "qtw", "ggktags", "yi");
+	printString(x);
+
+	printString("=== 20 ===");
+	f20("fejauuh", "dgsur", "lbqtagie", "mexkp", "ifig", "f", "yqus", "ujpt", "wnafu", "oox", "lcj", "bvfccksb", "xhgmglz", "yiivvdk", "ga", "fetsky", "vson", "yddznx", "vtzpz", "obzjm", x, "xm", "jnvpowbl", "vv", "m", "rmvu", "nsh", "ynxbrj", "lmdgz", "dklwoq", "wgerrm", "tmgasf", "vdg", "crbb", "");
+	printString(x);
+
+	printString("=== 21 ===");
+	f21("kvxzvaf", "l", "wmxygk", "krxknplq", "j", "nmcymo", "aynfi", "kt", "hmneu", "jcwrut", "kpo", "utt", "hgxhmu", "h", "ktv", "oqdcx", "svpumrl", "c", "bvtf", "bsooi", "fmfjoqw", x, "yw", "acmxkw", "ilpbs", "zy", "tpwatyvf", "azkozuf", "u", "bke", "", "vncegwfx", "crf", "f", "wsxdd");
+	printString(x);
+
+	printString("=== 22 ===");
+	f22("fkaxfdu", "xqs", "xap", "yu", "meqz", "alkhfc", "bh", "xqsc", "t", "fm", "", "orla", "jjj", "bhelsdhx", "ubukobnd", "gdf", "pcbjofo", "cnj", "gcshbeh", "wl", "ablbwx", "", x, "ipuof", "", "awd", "irsgb", "slxahqru", "etdez", "n", "bsxn", "fnvuj", "m", "kgtiyro", "knjsmac");
+	printString(x);
+
+	printString("=== 23 ===");
+	f23("zkagtz", "jrhd", "gqmb", "yyam", "xjwm", "sldejsqj", "op", "", "efrp", "u", "nf", "kprocgwl", "kgyg", "g", "h", "pfoy", "qii", "qbhu", "", "tzhi", "az", "mlcg", "ketdfof", x, "", "mtlsl", "pmqzdlj", "v", "n", "", "mq", "mlpsyarm", "fbolhxu", "qosbs", "fy");
+	printString(x);
+
+	printString("=== 24 ===");
+	f24("ygkbswwd", "zw", "", "fuhg", "scvjqdps", "ckjkpurs", "pjolsnui", "vij", "okchgue", "uc", "", "ieof", "xmnkd", "kt", "uvgwhdz", "irksu", "", "f", "ccymfvc", "fx", "", "wbzztj", "z", "d", x, "c", "vqr", "rl", "ovjch", "dkaxtf", "eebxzk", "bn", "jl", "cp", "qlmntfmi");
+	printString(x);
+
+	printString("=== 25 ===");
+	f25("ompglwb", "agppdgk", "u", "", "gnsmw", "xbxy", "xsq", "", "c", "bptdbrp", "", "pgcrmom", "lyj", "d", "", "goagdbx", "zhzla", "cevye", "yh", "", "", "nsrcyxdp", "ky", "uzmcmcx", "", x, "", "kxmvz", "lqo", "", "cmr", "idcyi", "mmyhnpa", "e", "z");
+	printString(x);
+
+	printString("=== 26 ===");
+	f26("ppjsx", "sgmabln", "dlczk", "", "i", "jssu", "l", "pfoerzj", "", "eur", "qye", "pvywc", "rrsoya", "xlt", "nqoe", "edkn", "dnr", "fk", "sxzh", "lpguhpz", "wy", "hopr", "ps", "rmvxmjpn", "wcuiim", "lsjhduau", x, "jqxqek", "k", "ynsnuxnz", "g", "mcavp", "", "nzjlkx", "jynr");
+	printString(x);
+
+	printString("=== 27 ===");
+	f27("x", "hwlkx", "tnzzvrbm", "bxyo", "vfobkx", "bf", "bjneme", "", "nqf", "ufe", "o", "", "ijlcazh", "ovsjak", "czlsr", "", "znty", "ab", "llkne", "zqap", "zxtbemj", "", "psgbtddu", "adgudhhg", "", "", "y", x, "ld", "ibzpwc", "fxzuvt", "tuiia", "hlz", "", "izsvwrvs");
+	printString(x);
+
+	printString("=== 28 ===");
+	f28("", "tx", "", "iuj", "yqrgt", "", "davhwgwp", "owvvsgjb", "vwja", "cczmfnv", "zwjzjzc", "lbfuecx", "", "kzi", "", "iqaay", "cbpqrjoc", "ctz", "gnf", "feo", "qouiz", "lmwntfx", "", "b", "gte", "kxfbdjp", "qzpwu", "mhu", x, "hydn", "wiwm", "ivsrs", "lagrabq", "bfcktn", "nlh");
+	printString(x);
+
+	printString("=== 29 ===");
+	f29("pwb", "xbz", "zcq", "baomfj", "dqsjiu", "xnrmpdkz", "yqmksrkx", "sczrxn", "", "", "vy", "nejejlfv", "nkiii", "kfei", "wdvzi", "", "", "cl", "iqrsfxr", "bxujc", "hind", "", "pdst", "rmqxbkk", "jbfkcge", "msjvn", "e", "xcg", "ua", x, "mzo", "oxehepb", "dcroor", "jfqsaygg", "flippea");
+	printString(x);
+
+	printString("=== 30 ===");
+	f30("miimh", "bgyph", "cmsvnzbz", "kqhjaff", "alcljajo", "joo", "quw", "d", "okvhblet", "n", "xulsmv", "", "byrggd", "", "l", "fnmu", "ezpe", "", "g", "eps", "islpth", "l", "lapoi", "cnxdcvsc", "mxhhfugq", "cnin", "me", "nqajdlm", "e", "tjjd", x, "synb", "zphlc", "ntafbb", "djauois");
+	printString(x);
+
+	printString("=== 31 ===");
+	f31("e", "", "", "", "osgug", "axom", "k", "fynzg", "xteehd", "jswpvt", "rwfs", "tof", "ezoyfd", "ma", "uznlrhpd", "x", "pd", "", "uvs", "r", "iv", "x", "qifgeu", "klsntpja", "lv", "ekkha", "fcnhmb", "q", "jafhbyh", "ev", "cugbyq", x, "yeavkqut", "usdf", "zchxi");
+	printString(x);
+
+	printString("=== 32 ===");
+	f32("wrtkmiz", "eysizpf", "i", "wdpq", "rzmt", "v", "wb", "caf", "uppnukgs", "nccaixu", "hup", "xy", "", "r", "bnb", "sergrqjo", "pkwfqxos", "ngmhfycx", "lbal", "ntxgy", "cnwloz", "", "eqex", "fgsxzwgv", "sedme", "", "mr", "u", "p", "bwnsubf", "d", "lvtkiipz", x, "cqmmi", "xwvzoyx");
+	printString(x);
+
+	printString("=== 33 ===");
+	f33("skv", "ryc", "ggoopob", "umsagxz", "t", "eumnp", "nrkeerug", "ciyajbxg", "xwc", "qnviqu", "d", "gp", "walphpjt", "isu", "zjs", "zalq", "aah", "", "ap", "hdq", "dyyxjad", "", "r", "", "snxyk", "uwsfuby", "yd", "lob", "", "", "sq", "pho", "lzibnil", x, "svpoxzye");
+	printString(x);
+
+	printString("=== 34 ===");
+	f34("tcxuiz", "mjvbeait", "kfyr", "e", "tpelnv", "hypdkwb", "xeoupglc", "wldk", "motzxf", "otfsxqc", "ap", "naun", "aha", "iftck", "kdnjvdw", "v", "khkpywx", "dnr", "", "xuxnolj", "crfe", "", "cqh", "cm", "i", "hkoqc", "rn", "t", "b", "bnivsip", "cxi", "nji", "uqr", "myvalvdd", x);
+	printString(x);
+
+	return 0;
+}

@@ -1,0 +1,21 @@
+// Author: Krzysztof Małysa (2021)
+
+class A {
+    string x;
+    void foo(B b) {
+        b.a = null;
+        x = "ho ho ho";
+        printString(x);
+    }
+}
+
+class B {
+    A a;
+}
+
+int main() {
+    B b = new B;
+    b.a = new A;
+    b.a.foo(b);
+	return 0;
+}

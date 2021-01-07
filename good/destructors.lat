@@ -902,6 +902,206 @@ void check_return() {
 	assert(check_return6() == "86");
 }
 
+class ParamPassing {
+	void check_param_passing_int_impl(int a, int b) {
+		a = -164365236;
+		assert(a == -164365236);
+	}
+
+	void check_param_passing_bool_impl(boolean a, boolean b) {
+		a = true;
+		assert(a);
+	}
+
+	void check_param_passing_string_impl(string a, string b) {
+		a = "xxx";
+		assert(a == "xxx");
+	}
+
+	void check_param_passing_class_impl(A a, A b) {
+		A x = new A;
+		a = x;
+		a.s = "a b c";
+		assert(a == x);
+		assert(a.s == x.s);
+		assert(a.s == "a b c");
+		assert(x.s == "a b c");
+	}
+
+	void check_param_passing_array_impl(string[] a, string[] b) {
+		string[] x = new string[8];
+		a = x;
+		a[3] = "x y z";
+		assert(a == x);
+		assert(a[3] == x[3]);
+		assert(a[3] == "x y z");
+		assert(x[3] == "x y z");
+	}
+}
+
+void check_param_passing_int_impl(int a, int b) {
+	a = -164365236;
+	assert(a == -164365236);
+}
+
+void check_param_passing_bool_impl(boolean a, boolean b) {
+	a = true;
+	assert(a);
+}
+
+void check_param_passing_string_impl(string a, string b) {
+	a = "xxx";
+	assert(a == "xxx");
+}
+
+void check_param_passing_class_impl(A a, A b) {
+	A x = new A;
+	a = x;
+	a.s = "a b c";
+	assert(a == x);
+	assert(a.s == x.s);
+	assert(a.s == "a b c");
+	assert(x.s == "a b c");
+}
+
+void check_param_passing_array_impl(string[] a, string[] b) {
+	string[] x = new string[8];
+	a = x;
+	a[3] = "x y z";
+	assert(a == x);
+	assert(a[3] == x[3]);
+	assert(a[3] == "x y z");
+	assert(x[3] == "x y z");
+}
+
+void check_param_passing_int() {
+	{
+		check_param_passing_int_impl(4, 8);
+		int x = 628;
+		check_param_passing_int_impl(x, 86);
+		assert(x == 628);
+		check_param_passing_int_impl(13568, x);
+		assert(x == 628);
+	}
+	{
+		ParamPassing pp = new ParamPassing;
+		pp.check_param_passing_int_impl(4, 8);
+		int x = 628;
+		pp.check_param_passing_int_impl(x, 86);
+		assert(x == 628);
+		pp.check_param_passing_int_impl(13568, x);
+		assert(x == 628);
+	}
+}
+
+void check_param_passing_bool() {
+	{
+		check_param_passing_bool_impl(true, false);
+		boolean x = false;
+		check_param_passing_bool_impl(x, true);
+		assert(x == false);
+		check_param_passing_bool_impl(false, x);
+		assert(x == false);
+	}
+	{
+		ParamPassing pp = new ParamPassing;
+		pp.check_param_passing_bool_impl(true, false);
+		boolean x = false;
+		pp.check_param_passing_bool_impl(x, true);
+		assert(x == false);
+		pp.check_param_passing_bool_impl(false, x);
+		assert(x == false);
+	}
+}
+
+void check_param_passing_string() {
+	{
+		check_param_passing_string_impl("ooo", "...");
+		string s = "hhh";
+		check_param_passing_string_impl(s, ",,,");
+		assert(s == "hhh");
+		check_param_passing_string_impl("asuth", s);
+		assert(s == "hhh");
+	}
+	{
+		ParamPassing pp = new ParamPassing;
+		pp.check_param_passing_string_impl("ooo", "...");
+		string s = "hhh";
+		pp.check_param_passing_string_impl(s, ",,,");
+		assert(s == "hhh");
+		pp.check_param_passing_string_impl("asuth", s);
+		assert(s == "hhh");
+	}
+}
+
+void check_param_passing_class() {
+	{
+		check_param_passing_class_impl(null, null);
+		check_param_passing_class_impl(null, new A);
+		check_param_passing_class_impl(new A, null);
+		check_param_passing_class_impl(new A, new A);
+		A x = new A, y = x;
+		check_param_passing_class_impl(x, new A);
+		assert(x == y);
+		assert(x.s == "");
+		check_param_passing_class_impl(new A, x);
+		assert(x == y);
+		assert(x.s == "");
+	}
+	{
+		ParamPassing pp = new ParamPassing;
+		pp.check_param_passing_class_impl(null, null);
+		pp.check_param_passing_class_impl(null, new A);
+		pp.check_param_passing_class_impl(new A, null);
+		pp.check_param_passing_class_impl(new A, new A);
+		A x = new A, y = x;
+		pp.check_param_passing_class_impl(x, new A);
+		assert(x == y);
+		assert(x.s == "");
+		pp.check_param_passing_class_impl(new A, x);
+		assert(x == y);
+		assert(x.s == "");
+	}
+}
+
+void check_param_passing_array() {
+	{
+		check_param_passing_array_impl(null, null);
+		check_param_passing_array_impl(null, new string[22]);
+		check_param_passing_array_impl(new string[22], null);
+		check_param_passing_array_impl(new string[22], new string[22]);
+		string[] x = new string[22], y = x;
+		check_param_passing_array_impl(x, new string[22]);
+		assert(x == y);
+		assert(x[3] == "");
+		check_param_passing_array_impl(new string[22], x);
+		assert(x == y);
+		assert(x[3] == "");
+	}
+	{
+		ParamPassing pp = new ParamPassing;
+		pp.check_param_passing_array_impl(null, null);
+		pp.check_param_passing_array_impl(null, new string[22]);
+		pp.check_param_passing_array_impl(new string[22], null);
+		pp.check_param_passing_array_impl(new string[22], new string[22]);
+		string[] x = new string[22], y = x;
+		pp.check_param_passing_array_impl(x, new string[22]);
+		assert(x == y);
+		assert(x[3] == "");
+		pp.check_param_passing_array_impl(new string[22], x);
+		assert(x == y);
+		assert(x[3] == "");
+	}
+}
+
+void check_param_passing() {
+	check_param_passing_int();
+	check_param_passing_bool();
+	check_param_passing_string();
+	check_param_passing_class();
+	check_param_passing_array();
+}
+
 int main() {
 	test();
 	xx();
@@ -952,5 +1152,6 @@ int main() {
 	check_if();
 	check_void_return();
 	check_return();
+	check_param_passing();
 	return 0;
 }
