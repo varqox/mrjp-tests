@@ -87,8 +87,8 @@ bad_test_compilation_succeeded() {
     return 1
 }
 warning_test_compilation_failed() {
-    if $single_test; then cat "${compiler_stderr}"; fi
     fail "compiler exited with code ${compiler_ec}, but 0 was expected"
+    if $single_test; then cat "${compiler_stderr}"; fi
     return 1
 }
 warning_test_compilation_succeeded() {
