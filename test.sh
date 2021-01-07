@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
 use_valgrind=true # if you disable leaks, and leave this, valgrind may find invalid memory reads / writes
