@@ -9,6 +9,10 @@ tmp_dir=$(mktemp -d)
 trap 'rm -r "$tmp_dir"' EXIT
 latc=$1
 [ -z "$latc" ] && echo "Usage: $0 <path_to_latc> [TEST_DIR]..." && false
+case "${latc}" in
+    /*) latc_for_exec="${latc}" ;;
+    *) latc_for_exec="./${latc}" ;;
+esac
 
 tmp_test_lat="${tmp_dir}/test.lat"
 tmp_test_prog="${tmp_dir}/test"
@@ -114,7 +118,7 @@ test_on_dir() {
         *.lat) single_test=true ;;
         *)  single_test=false ;;
     esac
-    for test_lat in $(find "${1}" -type f | sort | grep -P '\.lat$'); do
+    for test_lat in $(find "${1}" -type f | grep -P '\.lat$' | sort); do
         test_name=${test_lat%.lat}
         case "${1}" in
             */) test_name=${test_name#"${1}"} ;;
@@ -141,7 +145,7 @@ test_on_dir() {
         fi
 
         cp "${test_lat}" "${tmp_test_lat}"
-        compiler_ec=$(set +e; "${latc}" "${tmp_test_lat}" > /dev/null 2> "${compiler_stderr}"; echo $?)
+        compiler_ec=$(set +e; "${latc_for_exec}" "${tmp_test_lat}" > /dev/null 2> "${compiler_stderr}"; echo $?)
         if [ "${compiler_ec}" != "0" ]; then
             func="${comp_fail}"
         else
