@@ -1,0 +1,11 @@
+// Author: Krzysztof Małysa (2021)
+int main() {
+	xxx k = f();
+	return 0;
+}
+
+class yyy {}
+
+yyy f() {
+	return null;
+}
