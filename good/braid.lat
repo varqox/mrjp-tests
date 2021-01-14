@@ -1,0 +1,75 @@
+// Author: Krzysztof Małysa (2021)
+int i111() { return 111; }
+int i888() { return 888; }
+
+void test_simple_swap() {
+	int x = i111(), y = i888(), z = 4;
+	while (z > 0) {
+		printInt(x);
+		printInt(y);
+		z--;
+		int k = x;
+		x = y;
+		y = k;
+	}
+	printString("---------");
+	int yy = 888, xx = 111, zz = 4;
+	while (zz > 0) {
+		printInt(xx);
+		printInt(yy);
+		zz--;
+		int k = xx;
+		xx = yy;
+		yy = k;
+	}
+}
+
+int i1() { return 1; }
+int i22() { return 22; }
+int i333() { return 333; }
+
+void test_braid() {
+	printString("---------");
+	int a = i1(), b = i22(), c = i333();
+	int i = 6;
+	while (i >= 0) {
+		i--;
+		printInt(a);
+		printInt(b);
+		printInt(c);
+		printString("");
+		if (i % 2 == 1) {
+			int k = a;
+			a = b;
+			b = k;
+		} else {
+			int k = c;
+			c = b;
+			b = k;
+		}
+	}
+}
+
+void test_rotate() {
+	printString("---------");
+	int a = i1(), b = i22(), c = i333();
+	int i = 4;
+	while (i > 0) {
+		i--;
+		printInt(a);
+		printInt(b);
+		printInt(c);
+		printString("");
+		int k = a;
+		a = b;
+		b = c;
+		c = k;
+	}
+}
+
+int main() {
+	test_simple_swap();
+	test_braid();
+	test_rotate();
+	return 0;
+}
