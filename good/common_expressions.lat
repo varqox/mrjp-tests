@@ -1,0 +1,119 @@
+// Author: Krzysztof Małysa (2021)
+int i111() { return 111; }
+int i888() { return 888; }
+
+void test1() {
+	printString("\ntest1");
+	int x = i111(), y = i888();
+	printInt(x + y * (x - y));
+	if (x > y) {
+		printInt(x + y * (x - y));
+	} else {
+		printInt(y * (x - y) + x);
+		printInt(y + y * (x - y));
+	}
+	printInt(x + y * (x - y));
+}
+
+void test2() {
+	printString("\ntest2");
+	int x = i111(), y = i888();
+	printInt(x + y * (x - y));
+	if (x > y) {
+		printInt(x + y * (x - y));
+	} else {
+		printInt(y * (x - y) + x);
+		printInt(y + y * (x - y));
+	}
+	printInt(x + y * (x - y));
+}
+
+void test3() {
+	printString("\ntest3");
+	int x = i111(), y = i888() + 5;
+	printInt(x + y);
+	printInt(y + x);
+	printInt(x - y);
+	printInt(y - x);
+	printInt(x * y);
+	printInt(y * x);
+	printInt(x / y);
+	printInt(y / x);
+	printInt(x % y);
+	printInt(y % x);
+}
+
+void test4() {
+	printString("\ntest4");
+	int i = 3;
+	int x = i111(), y = i888();
+	printInt(x + y * (x - y));
+	while (i > 0) {
+		i--;
+		if (x > y) {
+			printInt(x + y * (x - y));
+		} else {
+			printInt(y * (x - y) + x);
+			printInt(y + y * (x - y));
+		}
+	}
+	printInt(x + y * (x - y));
+}
+
+void test5() {
+	printString("\ntest5");
+	int i = 3;
+	int x = i111(), y = i888();
+	while (i > 0) {
+		i--;
+		if (x > y) {
+			printInt(x + y * (x - y));
+		} else {
+			printInt(y * (x - y) + x);
+			printInt(y + y * (x - y));
+		}
+	}
+	printInt(x + y * (x - y));
+}
+
+class C {
+	string s;
+
+	boolean empty() {
+		return s == "";
+	}
+
+	void print() {
+		printString(s);
+	}
+
+	void extend(string s) {
+		self.s = self.s + s;
+	}
+}
+
+void assert(boolean b) {
+	if (!b) error();
+}
+
+void test6() {
+	C c = new C;
+	assert(c.empty());
+	c.print();
+	c.extend("abc");
+	assert(!c.empty());
+	c.print();
+	c.extend(";efg");
+	assert(!c.empty());
+	c.print();
+}
+
+int main() {
+	test1();
+	test2();
+	test3();
+	test4();
+	test5();
+	test6();
+	return 0;
+}

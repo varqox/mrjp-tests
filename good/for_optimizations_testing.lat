@@ -1,0 +1,149 @@
+// Author: Krzysztof Małysa (2021)
+
+void printBool(boolean b) {
+    if (b) printString("true");
+    else printString("false");
+}
+
+int main() {
+    int x = 42, y = x, z = y + 4;
+    int k = -x;
+    boolean f = true, not_f = !f;
+    int i5 = 5, i13 = 13;
+    int add = i13 + i5;
+    int sub = i13 - i5;
+    int mul = i13 * i5;
+    int div = i13 / i5;
+    int mod = i13 % i5;
+
+    printInt(x);
+    printInt(y);
+    printInt(z);
+    printInt(k);
+    printBool(f);
+    printBool(not_f);
+    printInt(add);
+    printInt(sub);
+    printInt(mul);
+    printInt(div);
+    printInt(mod);
+    printInt(foo());
+    testArray();
+    testClass();
+    test_unary_if();
+    test_bin_if();
+    test_unused_variables();
+    return 0;
+}
+
+int foo() {
+    int a = 44;
+    int b = a;
+    b = b;
+    int c = b;
+    return c;
+}
+
+void testArray() {
+    int[] arr = new int[10];
+    int i = 0;
+    while (i < arr.length) {
+        arr[i] = i;
+        i++;
+    }
+    arr[i - 1] = arr[i - 2];
+    printInt(i);
+    printString("arr:");
+    for (int x : arr) {
+        printInt(x);
+    }
+}
+
+class C {
+    int a, b, c;
+
+    int sum() {
+        return a + b + c;
+    }
+}
+
+void testClass() {
+    C c = new C;
+    c.c = 1;
+    c.b = 2;
+    c.a = c.sum();
+    printInt(c.sum());
+}
+
+void test_unary_if() {
+    boolean bbb = true;
+    if (bbb) {
+        printString("if0");
+    }
+    boolean b = true, x = false;
+    if (b) {
+        printString("if1");
+    } else {
+        if (x) {
+            printInt(1);
+        } else {
+            printInt(2);
+        }
+        printString("else1");
+    }
+
+    if (b) {
+        printString("if2");
+    }
+
+    if (!x) {
+        printString("if3");
+    }
+    if (!x) {
+        printString("if4");
+    } else {
+        printString("else4");
+    }
+}
+
+void test_bin_if() {
+    int i1 = 42, i2 = 88;
+    if (i1 < i2) printString("if1"); else printString("else1");
+    if (i1 <= i2) printString("if2"); else printString("else2");
+    if (i1 > i2) printString("if3"); else printString("else3");
+    if (i1 >= i2) printString("if4"); else printString("else4");
+    if (i1 == i2) printString("if5"); else printString("else5");
+    if (i1 != i2) printString("if6"); else printString("else6");
+
+    boolean b1 = true, b2 = false;
+    if (b1 == b2) printString("if7"); else printString("else7");
+    if (b1 != b2) printString("if8"); else printString("else8");
+
+    string s1 = "abc", s2 = "xyz";
+    if (s1 < s2) printString("if9"); else printString("else9");
+    if (s1 <= s2) printString("if10"); else printString("else10");
+    if (s1 > s2) printString("if11"); else printString("else11");
+    if (s1 >= s2) printString("if12"); else printString("else12");
+    if (s1 == s2) printString("if13"); else printString("else13");
+    if (s1 != s2) printString("if14"); else printString("else14");
+
+    C c1 = null, c2 = new C;
+    if (c1 == c2) printString("if15"); else printString("else15");
+    if (c1 != c2) printString("if16"); else printString("else16");
+
+    int[] a1 = null, a2 = new int[42];
+    if (a1 == a2) printString("if17"); else printString("else17");
+    if (a1 != a2) printString("if18"); else printString("else18");
+
+    string ss = "abc", sss = ss;
+    if (ss == sss) {
+        printString("if19");
+    } else {
+        printString("else19");
+    }
+}
+
+void test_unused_variables() {
+    int x = 42, y = x, z = x + y;
+    printInt(z);
+}
