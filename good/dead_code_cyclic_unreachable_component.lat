@@ -1,0 +1,18 @@
+// Author: Krzysztof Małysa (2021)
+
+int main() {
+	int x = 0;
+	int y = 13;
+	int c = 42;
+	if (x != c) {
+		while (x < c) {
+			c--;
+		}
+	} else {
+		while (x < y) {
+			c--;
+		}
+	}
+	printInt(c);
+	return 0;
+}
