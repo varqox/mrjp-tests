@@ -118,7 +118,7 @@ test_on_dir() {
         *.lat) single_test=true ;;
         *)  single_test=false ;;
     esac
-    for test_lat in $(find "${1}" -type f | grep -P '\.lat$' | sort); do
+    while read test_lat; do
         test_name=${test_lat%.lat}
         case "${1}" in
             */) test_name=${test_name#"${1}"} ;;
@@ -157,7 +157,7 @@ test_on_dir() {
         else
             failed_count=$((failed_count+1))
         fi
-    done
+    done < <(find "${1}" -type f | grep -P '\.lat$' | sort)
 }
 
 
