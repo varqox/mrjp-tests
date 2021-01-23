@@ -1,0 +1,88 @@
+// Author: Krzysztof Małysa (2021)
+
+class B extends A {
+	void m2() { printString("B::m2"); }
+
+	void m4() { printString("B::m4"); }
+	void m5() { printString("B::m5"); }
+}
+
+class C extends B {
+	void m1() { printString("C::m1"); }
+	void m2() { printString("C::m2"); }
+	void m5() { printString("C::m5"); }
+
+	void m6() { printString("C::m6"); }
+	void m7() { printString("C::m7"); }
+	void m8() { printString("C::m8"); }
+}
+
+class A {
+	void m1() { printString("A::m1"); }
+	void m2() { printString("A::m2"); }
+	void m3() { printString("A::m3"); }
+}
+
+class D extends C {
+	void m1() { printString("D::m1"); }
+	void m4() { printString("D::m4"); }
+	void m6() { printString("D::m6"); }
+	void m7() { printString("D::m7"); }
+
+	void m9() { printString("D::m9"); }
+}
+
+void printA(A a) {
+	a.m1();
+	a.m2();
+	a.m3();
+}
+
+void printB(B b) {
+	b.m1();
+	b.m2();
+	b.m3();
+	b.m4();
+	b.m5();
+}
+
+void printC(C c) {
+	c.m1();
+	c.m2();
+	c.m3();
+	c.m4();
+	c.m5();
+	c.m6();
+	c.m7();
+	c.m8();
+}
+
+void printD(D d) {
+	d.m1();
+	d.m2();
+	d.m3();
+	d.m4();
+	d.m5();
+	d.m6();
+	d.m7();
+	d.m8();
+	d.m9();
+}
+
+int main() {
+	A a = new A;
+	printString("A as A");printA(a);
+	B b = new B;
+	printString("B as A");printA(b);
+	printString("B as B");printB(b);
+	C c = new C;
+	printString("C as A");printA(c);
+	printString("C as B");printB(c);
+	printString("C as C");printC(c);
+	D d = new D;
+	printString("D as A");printA(d);
+	printString("D as B");printB(d);
+	printString("D as C");printC(d);
+	printString("D as D");printD(d);
+	return 0;
+}
