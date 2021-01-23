@@ -577,6 +577,28 @@ void check_string_arr() {
 	a[42] = "bla bla";
 }
 
+void check_string_arr_arr() {
+	string[][] a = new string[][42];
+	a[2] = new string[3];
+	a[2][1] = "abc";
+	a[16] = new string[4];
+	a[1] = new string[5];
+	a[2] = new string[6];
+	a[2][1] = "cde";
+	a[16][2] = "efg";
+	a[16][3] = "hij";
+
+	for (string[] b : a) {
+		if (b != null) {
+			printString("[[[");
+			for (string s : b) {
+				printString(s);
+			}
+			printString("]]]");
+		}
+	}
+}
+
 class Whiler {
 	int i;
 
@@ -1147,6 +1169,7 @@ int main() {
 	check_fcall();
 	check_mcall();
 	check_string_arr();
+	check_string_arr_arr();
 	check_while();
 	check_for();
 	check_if();
