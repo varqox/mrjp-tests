@@ -1,0 +1,7 @@
+// Author: Krzysztof Małysa (2021)
+int main() {
+	printInt(new int[42][8]);
+	printString(new string[42][41]);
+	printString("x" + new string[5][0] + "y");
+	return 0;
+}

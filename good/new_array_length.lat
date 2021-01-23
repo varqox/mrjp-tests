@@ -1,0 +1,5 @@
+// Author: Krzysztof Małysa (2021)
+int main() {
+	printInt(new int[42].length);
+	return 0;
+}
